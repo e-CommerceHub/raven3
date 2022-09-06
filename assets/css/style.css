@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 html{
-  background-color: #151515;
+  background-color: black;
 }
 body {
   font-family: 'Varela Round', sans-serif;
   color: #444444;
-  background-color: #151515;
+  background-color: black;
 }
 
 a {
@@ -738,22 +738,22 @@ section {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta1.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
-  height: 300px;
-  margin-top: 100px;
+  height: 350px;
+  margin-top: 50px;
 }
 
 .cta2 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta2.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
-  height: 300px;
+  height: 350px;
 
 }
 .cta3 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta3.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
-  height: 300px;
+  height: 350px;
 
 }
 
@@ -1171,7 +1171,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background-color: #151515;
+  background-color: black;
   padding: 60px 0;
 }
 
@@ -1259,17 +1259,17 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background-color: #151515;
+  background-color: black;
 }
 .map{
   width: 100%;
-  background-color: #151515;
+  background-color: black;
 }
 
 .contact .info i {
   font-size: 20px;
   background: #37E2D5;
-  color: #151515;
+  color: black;
   float: left;
   width: 44px;
   height: 44px;
@@ -1302,7 +1302,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background-color: #151515;
+  background-color: black;
 }
 
 .contact .php-email-form .form-group {
@@ -1472,7 +1472,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #151515;
+  background: black;
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
 }
