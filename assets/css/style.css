@@ -8,9 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+  background-color: #151515;
+}
 body {
   font-family: 'Varela Round', sans-serif;
   color: #444444;
+  background-color: #151515;
 }
 
 a {
@@ -522,6 +526,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+
 }
 
 .section-title {
@@ -536,7 +541,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -555,7 +560,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: 'Lexend Deca', sans-serif;
-  color: #151515;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -725,6 +730,30 @@ section {
   background-size: cover;
   padding: 60px 0;
 }
+
+.cta1 {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta1.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.cta2 {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta2.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  height: 400px;
+
+}
+.cta3 {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta3.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  height: 400px;
+
+}
+
 
 .cta h3 {
   color: #fff;
@@ -1139,7 +1168,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background-color: #151515;
   padding: 60px 0;
 }
 
@@ -1226,7 +1255,11 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background-color: #151515;
+}
+.map{
+  width: 100%;
+  background-color: #151515;
 }
 
 .contact .info i {
@@ -1248,14 +1281,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #151515;
+  color: white;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #484848;
+  color: white;
 }
 
 .contact .info .email,
@@ -1265,7 +1298,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background-color: #151515;
 }
 
 .contact .php-email-form .form-group {
