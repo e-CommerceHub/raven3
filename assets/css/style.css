@@ -671,10 +671,11 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #ebebeb;
+  border: 1px solid #395B64;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background-color: #2C3333;
+  border-radius: 50px;
 }
 
 .services .icon-box .icon {
@@ -703,7 +704,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
+  color: white;
   transition: ease-in-out 0.3s;
 }
 
@@ -715,6 +716,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: #848484;
 }
 
 .services .icon-box:hover {
