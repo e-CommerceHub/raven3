@@ -541,7 +541,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: white;
+  color: #848484;
   font-family: "Poppins", sans-serif;
 }
 
@@ -644,6 +644,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
+  color: white;
 }
 
 .features .icon-box i {
@@ -1288,7 +1289,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: white;
+  color: #848484;
 }
 
 .contact .info .email,
@@ -1551,7 +1552,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #848484;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
