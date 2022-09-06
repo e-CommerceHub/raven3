@@ -1225,20 +1225,21 @@ section {
 
 .team .member .member-info {
   padding: 25px 15px;
+  background-color: #2C3333;
 }
 
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #151515;
+  color: white;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #848484;
 }
 
 .team .member .member-info p {
@@ -1365,10 +1366,14 @@ section {
 
 .contact .php-email-form input {
   height: 44px;
+  background-color: #2C3333;
+  color: white;
 }
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
+  background-color: #2C3333;
+  color: white;
 }
 
 .contact .php-email-form button[type=submit] {
