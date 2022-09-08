@@ -5,6 +5,7 @@
   const links = document.querySelectorAll("nav ul li a");
   const links2 = document.querySelectorAll("span");
   const links3 = document.querySelectorAll("a");
+  const links4 = document.querySelectorAll("button");
 
   document.addEventListener("mousemove", (e) => {
     let leftPosition = e.clientX + 4;
@@ -39,6 +40,16 @@
     });
   });
   links3.forEach((link) => {
+    link.addEventListener("mouseleave", () => {
+      cursor.classList.remove("large");
+    });
+  });
+  links4.forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+      cursor.classList.add("large");
+    });
+  });
+  links4.forEach((link) => {
     link.addEventListener("mouseleave", () => {
       cursor.classList.remove("large");
     });

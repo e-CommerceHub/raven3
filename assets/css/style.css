@@ -9,8 +9,8 @@ html {
 }
 .cursor {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 1px solid #37e2d5;
   left: 0;
@@ -22,7 +22,7 @@ html {
   height: 80px;
   width: 80px;
   background-color: white;
-  opacity: 10%;
+  opacity: 30%;
 }
 body {
   font-family: "Varela Round", sans-serif;
@@ -1177,11 +1177,13 @@ section {
   height: 12px;
   background-color: rgba(255, 255, 255, 0.4);
   opacity: 0.5;
+  cursor: url('../img/custom-cursor-black.png'), auto;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #37e2d5;
   opacity: 1;
+  cursor: url('../img/custom-cursor-black.png'), auto;
 }
 
 @media (min-width: 1024px) {
@@ -1240,6 +1242,7 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  cursor: none;
 }
 
 .team .member .social a:hover {
@@ -1412,10 +1415,13 @@ section {
   color: #151515;
   transition: 0.4s;
   border-radius: 4px;
+  cursor: none;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffcd6b;
+  background-color: transparent;
+  color: white;
+  border:1px solid #37e2d5;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1543,6 +1549,7 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  cursor: none;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1567,6 +1574,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
+  cursor: none;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -1580,6 +1588,7 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  cursor: url('../img/custom-cursor.png'),auto;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1591,10 +1600,12 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  cursor: none;
 }
 
 #footer .footer-top .footer-links ul a:hover {
   color: #37e2d5;
+  cursor: none;
 }
 
 #footer .footer-top .footer-newsletter form {
