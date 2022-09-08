@@ -837,6 +837,7 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
+  cursor: none;
 }
 
 .portfolio #portfolio-flters li:hover,
