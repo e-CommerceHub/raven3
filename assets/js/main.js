@@ -5,8 +5,8 @@
   const links3 = document.querySelectorAll("a");
 
   document.addEventListener("mousemove", (e) => {
-    let leftPosition = e.pageX + 4;
-    let topPosition = e.pageY + 4;
+    let leftPosition = e.clientX  + 4;
+    let topPosition = e.clientY + 4;
     cursor.style.left = leftPosition + "px";
     cursor.style.top = topPosition + "px";
   });
@@ -63,6 +63,7 @@
    */
   const onscroll = (el, listener) => {
     el.addEventListener("scroll", listener);
+    
   };
 
   /**
