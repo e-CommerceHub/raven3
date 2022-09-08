@@ -1,11 +1,13 @@
 (function () {
   "use strict";
+
   const cursor = document.querySelector(".cursor");
   const links = document.querySelectorAll("nav ul li a");
+  const links2 = document.querySelectorAll("span");
   const links3 = document.querySelectorAll("a");
 
   document.addEventListener("mousemove", (e) => {
-    let leftPosition = e.clientX  + 4;
+    let leftPosition = e.clientX + 4;
     let topPosition = e.clientY + 4;
     cursor.style.left = leftPosition + "px";
     cursor.style.top = topPosition + "px";
@@ -17,6 +19,16 @@
     });
   });
   links.forEach((link) => {
+    link.addEventListener("mouseleave", () => {
+      cursor.classList.remove("large");
+    });
+  });
+  links2.forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+      cursor.classList.add("large");
+    });
+  });
+  links2.forEach((link) => {
     link.addEventListener("mouseleave", () => {
       cursor.classList.remove("large");
     });
@@ -63,7 +75,6 @@
    */
   const onscroll = (el, listener) => {
     el.addEventListener("scroll", listener);
-    
   };
 
   /**
