@@ -7,6 +7,7 @@
   const links3 = document.querySelectorAll("a");
   const links4 = document.querySelectorAll("button");
   const links5 = document.querySelectorAll("ul li");
+  const links6 = document.querySelectorAll("h4");
 
   document.addEventListener("mousemove", (e) => {
     let leftPosition = e.clientX + 4;
@@ -61,6 +62,16 @@
     });
   });
   links5.forEach((link) => {
+    link.addEventListener("mouseleave", () => {
+      cursor.classList.remove("large");
+    });
+  });
+  links6.forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+      cursor.classList.add("large");
+    });
+  });
+  links6.forEach((link) => {
     link.addEventListener("mouseleave", () => {
       cursor.classList.remove("large");
     });
