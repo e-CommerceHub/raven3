@@ -223,7 +223,6 @@ h6 {
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
 }
 
 .navbar li {
@@ -350,9 +349,9 @@ h6 {
   position: fixed;
   overflow: hidden;
   top: 0;
-  right: 0;
   left: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
@@ -365,17 +364,22 @@ h6 {
 }
 
 .navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
+  overflow: auto;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.4s ease-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 0; */
   background-color: #fff;
-  opacity: 80%;
-  overflow-y: auto;
-  transition: 0.3s;
+  background-size: cover;
+  background-image: url('../img/backmenu.jpg');
   cursor: url("../img/custom-cursor-black.png"), auto;
 }
 
@@ -383,7 +387,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #151515;
+  color: white;
   cursor: url("../img/custom-cursor.png"), auto;
 }
 
@@ -441,7 +445,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/raven1.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -457,7 +461,7 @@ h6 {
 }
 
 #hero .container {
-  position: relative;
+  position: absolute;
   padding-top: 74px;
   text-align: center;
 }
