@@ -852,6 +852,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(21, 21, 21, 0.6);
+  border: 1px solid #626262;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -865,6 +866,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+
 }
 
 .portfolio .portfolio-wrap img {
@@ -885,6 +887,7 @@ section {
   justify-content: flex-end;
   align-items: flex-start;
   padding: 20px;
+  border: 1px solid #37e2d5;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
