@@ -527,15 +527,10 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #hero {
-    height: 600px;
-  }
-
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
-
   #hero h2 {
     font-size: 20px;
     line-height: 24px;
