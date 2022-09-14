@@ -8,6 +8,7 @@
   const links4 = document.querySelectorAll("button");
   const links5 = document.querySelectorAll("ul li");
   const links6 = document.querySelectorAll("h4");
+  const links7 = document.querySelectorAll("i");
 
   document.addEventListener("mousemove", (e) => {
     let leftPosition = e.clientX + 4;
@@ -76,7 +77,16 @@
       cursor.classList.remove("large");
     });
   });
-
+  links7.forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+      cursor.classList.add("large");
+    });
+  });
+  links7.forEach((link) => {
+    link.addEventListener("mouseleave", () => {
+      cursor.classList.remove("large");
+    });
+  });
   /**
    * Easy selector helper function
    */
