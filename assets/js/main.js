@@ -143,6 +143,17 @@
   window.addEventListener("load", navbarlinksActive);
   onscroll(document, navbarlinksActive);
 
+  // 
+  
+  // function to remove scroll Y when clicking the burguer
+  on("click", ".bi-list", function (e) {
+    let burger = select("#burger");
+    if(burger.classList.contains("bi-list")){
+      document.body.style.overflowY = 'hidden';
+    }else{
+      document.body.style.overflowY = 'visible';
+    }
+  });
   /**
    * Scrolls to an element with header offset
    */
