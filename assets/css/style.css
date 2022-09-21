@@ -669,7 +669,7 @@ section {
 
 .cta1 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../img/raven5.jpg") fixed center center;
+    url("../img/raven5.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
   height: 350px;
@@ -1073,7 +1073,7 @@ section {
 }
 
 /* -----   REST OF THE TEAM -------    */
-.member-info{
+.member-info {
   background-color: #2c3333;
   padding: 25px 15px;
   width: 100%;
@@ -1081,7 +1081,7 @@ section {
   margin-bottom: 20px;
 }
 
-.member-info h4{
+.member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
@@ -1493,4 +1493,17 @@ section {
 }
 .content {
   width: 100%;
+}
+.wasap {
+  position: fixed;
+  left: 30px;
+  bottom: 20px;
+  height: 60px;
+  width: 60px;
+  z-index: 10000;
+  visibility: visible;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 100;
+  animation-name: tada;
 }
