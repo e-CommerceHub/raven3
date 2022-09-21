@@ -1507,11 +1507,7 @@ section {
   animation-iteration-count: 100;
   animation-name: tada;
 }
-.stroke{
-  color: transparent;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: #fff;
-}
+
 .glitch {
   color: white;
   text-transform: upercase;
@@ -1519,6 +1515,7 @@ section {
   display: inline-block;
   font-size: 46px;
   font-weight: 700;
+  margin-left: 10px;
 	/*font-family: 'Lato', sans-serif;
     font-size: 46px;
     font-weight: 700;
