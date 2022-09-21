@@ -1037,7 +1037,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff;
+  /* background: #fff; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1087,6 +1087,28 @@ section {
   background-color: #2c3333;
 }
 
+/* -----   REST OF THE TEAM -------    */
+.member-info{
+  background-color: #2c3333;
+  padding: 25px 15px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.member-info h4{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: white;
+}
+.member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #848484;
+}
+/* -----   REST OF THE TEAM FINISH -------    */
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
