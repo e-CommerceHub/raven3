@@ -429,18 +429,12 @@
           form.querySelector(".sent-message").classList.add("d-block");
           form.reset();
         } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              displayError(form,data["errors"].map(error => error["message"]).join(", "));
-            } else {
-              displayError(form,"Oops! There was a problem submitting your form");
-            }
-          })
+          displayError(form,"Oops! There was a problem in your form");
         }
         
       })
       .catch((error) => {
-        displayError(form, "Oops! There was a problem submitting your form");
+        displayError(form, error);
       });
   }
 
