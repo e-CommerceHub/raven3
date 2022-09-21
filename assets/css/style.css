@@ -562,7 +562,9 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
+  margin-top: 100px;
   padding-top: 20px;
+  margin-bottom: 100px;
 }
 
 .features .icon-box {
