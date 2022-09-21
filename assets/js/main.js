@@ -143,8 +143,8 @@
   window.addEventListener("load", navbarlinksActive);
   onscroll(document, navbarlinksActive);
 
-  // 
-  
+  //
+
   // function to remove scroll Y when clicking the burguer
   // on("click", ".bi-list", function (e) {
   //   let burger = select("#burger");
@@ -208,12 +208,11 @@
     this.classList.toggle("bi-list");
     this.classList.toggle("bi-x");
     let burger = select("#burger");
-    if(burger.classList.contains("bi-list")){
-      document.body.style.overflowY = 'visible';
-    }else{
-      document.body.style.overflowY = 'hidden';
+    if (burger.classList.contains("bi-list")) {
+      document.body.style.overflowY = "visible";
+    } else {
+      document.body.style.overflowY = "hidden";
     }
-
   });
 
   /**
@@ -403,4 +402,53 @@
    * Initiate Pure Counter
    */
   new PureCounter();
+
+  //
+
+  var form = document.getElementById("my-form");
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+
+    form.querySelector(".loading").classList.add("d-block");
+    form.querySelector(".error-message").classList.remove("d-block");
+    form.querySelector(".sent-message").classList.remove("d-block");
+
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        form.querySelector(".loading").classList.remove("d-block");
+        if (response.ok) {
+          form.querySelector(".sent-message").classList.add("d-block");
+          form.reset();
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              displayError(form,data["errors"].map(error => error["message"]).join(", "));
+            } else {
+              displayError(form,"Oops! There was a problem submitting your form");
+            }
+          })
+        }
+        
+      })
+      .catch((error) => {
+        displayError(form, "Oops! There was a problem submitting your form");
+      });
+  }
+
+  form.addEventListener("submit", handleSubmit);
+
+  function displayError(thisForm, error) {
+    thisForm.querySelector(".loading").classList.remove("d-block");
+    thisForm.querySelector(".error-message").innerHTML = error;
+    thisForm.querySelector(".error-message").classList.add("d-block");
+  }
 })();
