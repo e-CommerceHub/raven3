@@ -673,9 +673,10 @@ section {
   background-size: cover;
   padding: 60px 0;
   height: 350px;
-  /* test two above */
-  background-position: center center;
-  position: relative;
+  /* test above */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .cta2 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
