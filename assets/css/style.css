@@ -684,7 +684,7 @@ section {
   background-size: cover;
   padding: 60px 0;
   height: 350px;
-  -o-background-size: cover;
+  -o-background-size: fixed;
   -moz-background-size: cover;
   -ms-backgorund-size:cover;
 }
@@ -694,11 +694,11 @@ section {
   background-size: cover;
   padding: 60px 0;
   height: 350px;
-  -o-background-size: cover;
+  -o-background-size: fixed;
   -moz-background-size: cover;
   -ms-backgorund-size:cover;
 }
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .cta1 {
     background-attachment: fixed;
   }
@@ -708,7 +708,7 @@ section {
   .cta3 {
     background-attachment: fixed;
   }
-}
+} */
 @supports (-webkit-touch-callout: none) {
   .cta1 {
       background: url('../img/raven5.jpg') center top no-repeat scroll;
