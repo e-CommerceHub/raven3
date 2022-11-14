@@ -683,6 +683,8 @@ section {
   background-size: cover;
   padding: 60px 0;
   height: 350px;
+  -moz-background-size: cover;
+  -ms-backgorund-size:cover;
 }
 .cta3 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
@@ -690,6 +692,8 @@ section {
   background-size: cover;
   padding: 60px 0;
   height: 350px;
+  -moz-background-size: cover;
+  -ms-backgorund-size:cover;
 }
 @media (min-width: 1024px) {
   .cta1 {
@@ -702,20 +706,7 @@ section {
     background-attachment: fixed;
   }
 }
-@supports (-webkit-touch-callout: none) {
-  .cta1 {
-      background: url('../img/raven5.jpg') center top no-repeat scroll;
-      background-size: auto 350px;
-  }
-  .cta2{
-    background: url('../img/cta2.jpg') center top no-repeat scroll;
-    background-size: auto 350px;
-  }
-  .cta3{
-    background: url('../img/raven5.jpg') center top no-repeat scroll;
-    background-size: auto 350px;
-  }    
-  }
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
