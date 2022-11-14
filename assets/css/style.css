@@ -677,7 +677,7 @@ section {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-backgorund-size:cover;
-  -o-background-size: cover;
+  -o-background-attachement: scroll;
 
 }
 .cta2 {
