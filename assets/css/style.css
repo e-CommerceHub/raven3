@@ -676,7 +676,9 @@ section {
   /* test above */
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -ms-backgorund-size:cover;
   -o-background-size: cover;
+
 }
 .cta2 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
@@ -1885,4 +1887,7 @@ section {
   100% {
     clip: rect(16px, 9999px, 13px, 0);
   }
+}
+.gmap{
+  filter: grayscale(100%) invert(92%) contrast(83%);
 }
