@@ -674,7 +674,7 @@ section {
   padding: 60px 0;
   height: 350px;
   /* test above */
-  -o-background-size: cover;
+  -o-background-size: fixed;
   -moz-background-size: cover;
   -ms-backgorund-size:cover;
 }
