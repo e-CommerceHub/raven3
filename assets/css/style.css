@@ -1908,3 +1908,22 @@ section {
 .gmap{
   filter: grayscale(100%) invert(92%) contrast(83%);
 }
+
+
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #37e2d5 ; 
+}
