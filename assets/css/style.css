@@ -83,7 +83,6 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-  cursor: none;
 }
 
 /*--------------------------------------------------------------
@@ -169,7 +168,7 @@ h6 {
 
 #header .logo a {
   color: #fff;
-  cursor: none;
+  cursor: pointer;
   text-align: center;
   display: flex;
 }
@@ -194,7 +193,7 @@ h6 {
   font-size: 14px;
   display: inline-block;
   border: 2px solid #37e2d5;
-  cursor: none;
+  cursor: pointer;
 }
 
 .get-started-btn:hover {
@@ -245,7 +244,7 @@ h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  cursor: none;
+  cursor: pointer;
 }
 
 .navbar a i,
@@ -636,7 +635,7 @@ section {
 .services .icon-box h4 a {
   color: white;
   transition: ease-in-out 0.3s;
-  cursor: none;
+  cursor: pointer;
 }
 
 .services .icon-box h4 a:hover {
@@ -748,7 +747,7 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
-  cursor: none;
+  cursor: pointer;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -1074,7 +1073,7 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  cursor: none;
+  cursor: pointer;
 }
 
 .team .member .social a:hover {
@@ -1270,7 +1269,7 @@ section {
   color: #151515;
   transition: 0.4s;
   border-radius: 4px;
-  cursor: none;
+  cursor: pointer;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -1404,7 +1403,7 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  cursor: none;
+  cursor: pointer;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1429,7 +1428,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  cursor: none;
+  cursor: pointer;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -1455,12 +1454,12 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
-  cursor: none;
+  cursor: pointer;
 }
 
 #footer .footer-top .footer-links ul a:hover {
   color: #37e2d5;
-  cursor: none;
+  cursor: pointer;
 }
 
 #footer .footer-top .footer-newsletter form {
