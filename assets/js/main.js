@@ -1,92 +1,92 @@
 (function () {
   "use strict";
 
-  const cursor = document.querySelector(".cursor");
-  const links = document.querySelectorAll("nav ul li a");
-  const links2 = document.querySelectorAll("span");
-  const links3 = document.querySelectorAll("a");
-  const links4 = document.querySelectorAll("button");
-  const links5 = document.querySelectorAll("ul li");
-  const links6 = document.querySelectorAll("h4");
-  const links7 = document.querySelectorAll("i");
+  // const cursor = document.querySelector(".cursor");
+  // const links = document.querySelectorAll("nav ul li a");
+  // const links2 = document.querySelectorAll("span");
+  // const links3 = document.querySelectorAll("a");
+  // const links4 = document.querySelectorAll("button");
+  // const links5 = document.querySelectorAll("ul li");
+  // const links6 = document.querySelectorAll("h4");
+  // const links7 = document.querySelectorAll("i");
 
-  document.addEventListener("mousemove", (e) => {
-    let leftPosition = e.clientX + 4;
-    let topPosition = e.clientY + 4;
-    cursor.style.left = leftPosition + "px";
-    cursor.style.top = topPosition + "px";
-  });
+  // document.addEventListener("mousemove", (e) => {
+  //   let leftPosition = e.clientX + 4;
+  //   let topPosition = e.clientY + 4;
+  //   cursor.style.left = leftPosition + "px";
+  //   cursor.style.top = topPosition + "px";
+  // });
 
-  links.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
-      cursor.classList.add("large");
-    });
-  });
-  links.forEach((link) => {
-    link.addEventListener("mouseleave", () => {
-      cursor.classList.remove("large");
-    });
-  });
-  links2.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
-      cursor.classList.add("large");
-    });
-  });
-  links2.forEach((link) => {
-    link.addEventListener("mouseleave", () => {
-      cursor.classList.remove("large");
-    });
-  });
-  links3.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
-      cursor.classList.add("large");
-    });
-  });
-  links3.forEach((link) => {
-    link.addEventListener("mouseleave", () => {
-      cursor.classList.remove("large");
-    });
-  });
-  links4.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
-      cursor.classList.add("large");
-    });
-  });
-  links4.forEach((link) => {
-    link.addEventListener("mouseleave", () => {
-      cursor.classList.remove("large");
-    });
-  });
-  links5.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
-      cursor.classList.add("large");
-    });
-  });
-  links5.forEach((link) => {
-    link.addEventListener("mouseleave", () => {
-      cursor.classList.remove("large");
-    });
-  });
-  links6.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
-      cursor.classList.add("large");
-    });
-  });
-  links6.forEach((link) => {
-    link.addEventListener("mouseleave", () => {
-      cursor.classList.remove("large");
-    });
-  });
-  links7.forEach((link) => {
-    link.addEventListener("mouseenter", () => {
-      cursor.classList.add("large");
-    });
-  });
-  links7.forEach((link) => {
-    link.addEventListener("mouseleave", () => {
-      cursor.classList.remove("large");
-    });
-  });
+  // links.forEach((link) => {
+  //   link.addEventListener("mouseenter", () => {
+  //     cursor.classList.add("large");
+  //   });
+  // });
+  // links.forEach((link) => {
+  //   link.addEventListener("mouseleave", () => {
+  //     cursor.classList.remove("large");
+  //   });
+  // });
+  // links2.forEach((link) => {
+  //   link.addEventListener("mouseenter", () => {
+  //     cursor.classList.add("large");
+  //   });
+  // });
+  // links2.forEach((link) => {
+  //   link.addEventListener("mouseleave", () => {
+  //     cursor.classList.remove("large");
+  //   });
+  // });
+  // links3.forEach((link) => {
+  //   link.addEventListener("mouseenter", () => {
+  //     cursor.classList.add("large");
+  //   });
+  // });
+  // links3.forEach((link) => {
+  //   link.addEventListener("mouseleave", () => {
+  //     cursor.classList.remove("large");
+  //   });
+  // });
+  // links4.forEach((link) => {
+  //   link.addEventListener("mouseenter", () => {
+  //     cursor.classList.add("large");
+  //   });
+  // });
+  // links4.forEach((link) => {
+  //   link.addEventListener("mouseleave", () => {
+  //     cursor.classList.remove("large");
+  //   });
+  // });
+  // links5.forEach((link) => {
+  //   link.addEventListener("mouseenter", () => {
+  //     cursor.classList.add("large");
+  //   });
+  // });
+  // links5.forEach((link) => {
+  //   link.addEventListener("mouseleave", () => {
+  //     cursor.classList.remove("large");
+  //   });
+  // });
+  // links6.forEach((link) => {
+  //   link.addEventListener("mouseenter", () => {
+  //     cursor.classList.add("large");
+  //   });
+  // });
+  // links6.forEach((link) => {
+  //   link.addEventListener("mouseleave", () => {
+  //     cursor.classList.remove("large");
+  //   });
+  // });
+  // links7.forEach((link) => {
+  //   link.addEventListener("mouseenter", () => {
+  //     cursor.classList.add("large");
+  //   });
+  // });
+  // links7.forEach((link) => {
+  //   link.addEventListener("mouseleave", () => {
+  //     cursor.classList.remove("large");
+  //   });
+  // });
   /**
    * Easy selector helper function
    */
