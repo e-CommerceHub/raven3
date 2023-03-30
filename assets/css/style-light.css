@@ -7,14 +7,12 @@ body {
 h1 {
   color: black;
 }
-
 .features .icon-box h4 , h3, h3, h2, h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
   color: black;
 }
-
 .section-title p {
   margin: 0;
   margin: 0;
@@ -28,7 +26,6 @@ h1 {
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
-
 .servicios .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
@@ -40,7 +37,6 @@ h1 {
 .map {
   background-color: white;
 }
-
 .contact .info {
   width: 100%;
   background-color: white;
@@ -55,50 +51,34 @@ h1 {
   color: black;
   font-size: 14px;
 }
-
 #footer .footer-top {
   background: white;
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
 }
-
 #footer .footer-top .footer-info h3 {
-
   color: black;
 }
 #footer .footer-top .footer-info p {
-
   color: black;
 }
-
 .contact .info h4 {
-
   color: black;
 }
-
 .contact .php-email-form textarea {
-
   background-color: white;
   color: black;
-
 }
-
 .contact .php-email-form input {
-
   background-color: white;
   color: black;
 }
-
 #footer .footer-top h4 {
-
   color: black;
-
 }
-
 .gmap {
   filter: grayscale(0%) invert(0%) contrast(100%);
 }
-
 /* scrollbar custom */
 ::-webkit-scrollbar {
   width: 8px;
@@ -107,7 +87,6 @@ h1 {
 ::-webkit-scrollbar-track {
   background: white;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #555; 
