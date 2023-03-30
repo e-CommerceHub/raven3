@@ -597,9 +597,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# servicios
 --------------------------------------------------------------*/
-.services .icon-box {
+.servicios .icon-box {
   text-align: center;
   border: 1px solid #395b64;
   padding: 80px 20px;
@@ -607,7 +607,7 @@ section {
   border-radius: 50px;
 }
 
-.services .icon-box .icon {
+.servicios .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -620,36 +620,36 @@ section {
   transition: 0.3s;
 }
 
-.services .icon-box .icon i {
+.servicios .icon-box .icon i {
   color: #151515;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box h4 {
+.servicios .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.servicios .icon-box h4 a {
   color: white;
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
 
-.services .icon-box h4 a:hover {
+.servicios .icon-box h4 a:hover {
   color: #37e2d5;
 }
 
-.services .icon-box p {
+.servicios .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
   color: #848484;
 }
 
-.services .icon-box:hover {
+.servicios .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);

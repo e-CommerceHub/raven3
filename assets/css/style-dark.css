@@ -1,8 +1,6 @@
-
-
-  body {
-    color: white;
-    background-color: black;
-    transition: color 0.2s ease-in-out;
-    background-color: 0.2s ease-in-out;
-  }
+body {
+  color: white;
+  background-color: black;
+  transition: color 0.2s ease-in-out;
+  background-color: 0.2s ease-in-out;
+}
