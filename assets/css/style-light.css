@@ -37,7 +37,9 @@ h1 {
 .servicios .icon-box h4 a:hover {
   color: white;
 }
-
+.map {
+  background-color: white;
+}
 
 .contact .info {
   width: 100%;
@@ -91,6 +93,10 @@ h1 {
 
   color: black;
 
+}
+
+.gmap {
+  filter: grayscale(0%) invert(0%) contrast(100%);
 }
 
 /* scrollbar custom */
