@@ -9,3 +9,11 @@ function theme_toggle() {
 }
 
 theme_set(localStorage.getItem('theme-toggled'));
+
+
+let preloader = document.getElementById('preloader');
+if (preloader) {
+ window.addEventListener("load", () => {
+   preloader.remove();
+ });
+}
