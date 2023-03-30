@@ -4,3 +4,75 @@ body {
   transition: color 0.2s ease-in-out;
   background-color: 0.2s ease-in-out;
 }
+h1, h2, h4 {
+  color: black;
+}
+
+.features .icon-box h4 , h3, h3, h2, h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+  color: black;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Lexend Deca", sans-serif;
+  color: black;
+}
+.servicios .icon-box h4 a {
+  color: black;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.contact .info {
+  width: 100%;
+  background-color: white;
+}
+.contact .php-email-form {
+  width: 100%;
+  background-color: white;
+}
+#footer {
+  background: white;
+  padding: 0 0 30px 0;
+  color: black;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: white;
+  border-bottom: 1px solid #222222;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info h3 {
+
+  color: black;
+}
+#footer .footer-top .footer-info p {
+
+  color: black;
+}
+
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #37e2d5 ; 
+}
