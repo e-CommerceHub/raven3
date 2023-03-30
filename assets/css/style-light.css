@@ -4,7 +4,7 @@ body {
   transition: color 0.2s ease-in-out;
   background-color: 0.2s ease-in-out;
 }
-h1, h2, h4 {
+h1 {
   color: black;
 }
 
@@ -28,6 +28,16 @@ h1, h2, h4 {
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
+
+.servicios .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  background-color: #bbe4e4;
+}
+.servicios .icon-box h4 a:hover {
+  color: white;
+}
+
 
 .contact .info {
   width: 100%;
@@ -75,6 +85,12 @@ h1, h2, h4 {
 
   background-color: white;
   color: black;
+}
+
+#footer .footer-top h4 {
+
+  color: black;
+
 }
 
 /* scrollbar custom */
