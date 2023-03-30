@@ -1,0 +1,6 @@
+  body {
+    color: black;
+    background-color: white;
+    transition: color 0.2s ease-in-out;
+    background-color: 0.2s ease-in-out;
+  }
