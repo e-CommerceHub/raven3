@@ -59,6 +59,24 @@ h1, h2, h4 {
   color: black;
 }
 
+.contact .info h4 {
+
+  color: black;
+}
+
+.contact .php-email-form textarea {
+
+  background-color: white;
+  color: black;
+
+}
+
+.contact .php-email-form input {
+
+  background-color: white;
+  color: black;
+}
+
 /* scrollbar custom */
 ::-webkit-scrollbar {
   width: 8px;
