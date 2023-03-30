@@ -4,6 +4,12 @@ body {
   transition: color 0.2s ease-in-out;
   background-color: 0.2s ease-in-out;
 }
+
+a {
+  color: #37e2d5;
+  text-decoration: none;
+}
+
 a:hover{
   color:white;
 }

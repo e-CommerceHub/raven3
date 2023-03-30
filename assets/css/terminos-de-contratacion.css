@@ -499,9 +499,11 @@ select {
 	color: #fff
 }
 .search-close .line, .search-form-top input {
+	transition-duration: .3s;
 	-moz-transition-duration: .3s;
 	-o-transition-duration: .3s;
 	-webkit-transition-duration: .3s
+	
 }
 .search-form-top {
 	top: 0;
@@ -635,7 +637,7 @@ select {
 }
 .list__marker {
 	display: inline-block;
-	float: left
+	float: left;
 }
 .list__heading {
 	overflow: hidden
