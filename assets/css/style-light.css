@@ -16,6 +16,10 @@ span {
 .credits a:hover {
 font-weight: bold;
 }
+
+.features .image {
+  background-image: url('../img/R3.B.png')
+}
 .features .icon-box h4 , h3, h3, h2, h1 {
   font-size: 30px;
   font-weight: 700;
