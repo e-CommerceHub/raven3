@@ -13,6 +13,9 @@ a {
 span {
   color: black;
 }
+.credits a:hover {
+font-weight: bold;
+}
 .features .icon-box h4 , h3, h3, h2, h1 {
   font-size: 30px;
   font-weight: 700;
