@@ -19,6 +19,9 @@ span {
   margin: 5px 0 10px 60px;
   color: black;
 }
+.servicios .icon-box {
+  box-shadow: 14px 14px 9px -4px rgba(0, 0, 0, 0.24)
+}
 .section-title p {
   margin: 0;
   margin: 0;

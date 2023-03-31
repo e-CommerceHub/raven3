@@ -16,3 +16,8 @@ a:hover{
 span{
   color: white;
 }
+
+
+.servicios .icon-box {
+  box-shadow: 14px 14px 9px -4px rgba(55, 226, 213, 0.24)
+}
