@@ -16,9 +16,23 @@ span {
 .credits a:hover {
 font-weight: bold;
 }
-
+.contact .php-email-form button[type="submit"] {
+  background: white;
+  border: 1px solid #395b64;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact .php-email-form button[type="submit"]:hover {
+  background-color: #bbe4e4;
+  color: black;
+  border: 1px solid #bbe4e4;
+  transition: all ease-in-out 0.3s;
+}
 .features .image {
-  background-image: url('../img/R3.B.png')
+  background-image: url('../img/R3.B.png');
 }
 .features .icon-box h4 , h3, h3, h2, h1 {
   font-size: 30px;
@@ -56,6 +70,7 @@ font-weight: bold;
 .contact .info {
   width: 100%;
   background-color: white;
+  
 }
 .contact .php-email-form {
   width: 100%;
@@ -84,10 +99,12 @@ font-weight: bold;
 .contact .php-email-form textarea {
   background-color: white;
   color: black;
+  border: 1px solid #395b64;
 }
 .contact .php-email-form input {
   background-color: white;
   color: black;
+  border: 1px solid #395b64;
 }
 #footer .footer-top h4 {
   color: black;
