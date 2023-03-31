@@ -167,6 +167,7 @@ h6 {
 }
 
 #header .logo a {
+  font-family: "Varela Round", sans-serif;
   color: #fff;
   cursor: pointer;
   text-align: center;
@@ -1501,10 +1502,11 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 #footer .credits {
-  padding-top: 30px;
+  padding-top: 60px;
   text-align: center;
   font-size: 13px;
   color: #fff;
