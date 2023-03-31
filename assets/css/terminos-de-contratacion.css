@@ -947,6 +947,13 @@ select {
 	padding-bottom: 61px;
 	border-bottom: none
 }
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
 .page-title-bar-02 .page-title-bar-inner .heading {
 	font-weight: 500;
 	letter-spacing: -.03em;
