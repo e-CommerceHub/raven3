@@ -1526,7 +1526,7 @@ select {
 	color: #222
 }
 .header-desktop.style-5 {
-	position: relative;
+	position: fixed;
 }
 .headroom.style-5.headroom--not-top, .headroom.style-6.headroom--not-top {
 	position: fixed
