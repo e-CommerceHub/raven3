@@ -20,6 +20,25 @@ span{
   background-image: url('../img/R3.N.png');
 }
 
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #37e2d5 ; 
+}
+
 .servicios .icon-box {
   box-shadow: 14px 14px 9px -4px rgba(55, 226, 213, 0.24)
 }
