@@ -180,3 +180,7 @@ font-weight: bold;
 	left: -50px;
 	z-index: 1;
 }
+
+.btn-liquid span {
+color: white;
+}
