@@ -122,7 +122,8 @@ font-weight: bold;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #555; 
+  background: #555;
+  border-radius: 10px; 
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

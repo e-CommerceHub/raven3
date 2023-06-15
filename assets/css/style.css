@@ -1587,7 +1587,6 @@ section {
   animation-duration: 2s;
   animation-delay: 0s;
   animation-iteration-count: 100;
- 
 }
 
 .glitch {
@@ -1970,5 +1969,3 @@ section {
 .gmap{
   filter: grayscale(100%) invert(92%) contrast(83%);
 }
-
-
