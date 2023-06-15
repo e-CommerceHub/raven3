@@ -605,10 +605,10 @@ section {
 --------------------------------------------------------------*/
 .servicios .icon-box {
   text-align: center;
-  border: 1px solid #395b64;
+  border: 26px inset #395b64;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  border-radius: 50px;
+  border-radius: 0px 100px 0px 100px;
 }
 
 .servicios .icon-box .icon {
