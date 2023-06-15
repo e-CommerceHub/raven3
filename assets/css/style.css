@@ -1008,6 +1008,11 @@ section {
 .testimonials .testimonial-item {
   text-align: center;
   color: #fff;
+  cursor: grab;
+}
+
+.testimonials .testimonial-item:active {
+ cursor: grabbing;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1974,11 +1979,12 @@ section {
 /* Track */
 ::-webkit-scrollbar-track {
   background: black;
-}
 
+}
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #555; 
+  border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
