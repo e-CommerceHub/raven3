@@ -128,3 +128,12 @@ font-weight: bold;
 ::-webkit-scrollbar-thumb:hover {
   background: #37e2d5 ; 
 }
+
+.portfolio2{
+  background-color: white;
+}
+.btn-liquid .inner {
+	position: relative;
+	z-index: 2;
+  color: black;
+}
