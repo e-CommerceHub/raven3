@@ -169,6 +169,7 @@ font-weight: bold;
 .btn-liquid .inner {
 	position: relative;
 	z-index: 2;
+  color:white;
 }
 
 .btn-liquid canvas {
