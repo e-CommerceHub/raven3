@@ -318,7 +318,7 @@ h6 {
   /* padding: 10px 0; */
   background-color: #fff;
   background-size: cover;
-  background-image: url("../img/backmenu.jpg");
+  background-image: url("../img/backmenu.webp");
   cursor: url("../img/custom-cursor-black.png"), auto;
 }
 
@@ -354,7 +354,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/raven1.jpg") top center;
+  background: url("../img/raven1.webp") top center;
   background-size: cover;
   position: relative;
 }
@@ -726,7 +726,7 @@ section {
 
 .cta1 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/raven5.jpg") fixed center center;
+    url("../img/raven5.webp") fixed center center;
   background-size: cover;
   padding: 60px 0;
   height: 350px;
@@ -737,7 +737,7 @@ section {
 }
 .cta2 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/cta2.jpg") fixed center center;
+    url("../img/cta2.webp") fixed center center;
   background-size: cover;
   padding: 60px 0;
   height: 350px;
@@ -747,7 +747,7 @@ section {
 }
 .cta3 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/raven1.jpg") fixed center center;
+    url("../img/raven1.webp") fixed center center;
   background-size: cover;
   padding: 60px 0;
   height: 350px;
@@ -768,15 +768,15 @@ section {
 } */
 @supports (-webkit-touch-callout: none) {
   .cta1 {
-      background: url('../img/raven5.jpg') center top no-repeat scroll;
+      background: url('../img/raven5.webp') center top no-repeat scroll;
       background-size: auto 350px;
   }
   .cta2{
-    background: url('../img/cta2.jpg') center top no-repeat scroll;
+    background: url('../img/cta2.webp') center top no-repeat scroll;
     background-size: auto 350px;
   }
   .cta3{
-    background: url('../img/raven1.jpg') center top no-repeat scroll;
+    background: url('../img/raven1.webp') center top no-repeat scroll;
     background-size: auto 350px;
   }    
 }
@@ -980,7 +980,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/raven4.jpg") no-repeat;
+  background: url("../img/raven4.webp") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
