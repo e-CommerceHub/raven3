@@ -139,7 +139,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: initial;
   }
 }
 
@@ -1590,7 +1590,7 @@ section {
 
 .glitch {
   color: white;
-  text-transform: upercase;
+  text-transform: uppercase;
   position: relative;
   display: inline-block;
   font-size: 46px;
@@ -1603,7 +1603,7 @@ section {
 }
 .glitch.black {
   color: black;
-  text-transform: upercase;
+  text-transform: uppercase;
   position: relative;
   display: inline-block;
 	/*font-family: 'Lato', sans-serif;
