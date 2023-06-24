@@ -605,7 +605,7 @@ section {
 --------------------------------------------------------------*/
 .servicios .icon-box {
   text-align: center;
-  border: 26px inset #395b64;
+  border: 10px inset #395b64;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   border-radius: 0px 100px 0px 100px;
@@ -657,7 +657,6 @@ section {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
-  background-color: #2c3333;
 }
 
 /*--------------------------------------------------------------
