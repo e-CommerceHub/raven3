@@ -732,7 +732,7 @@ section {
   /* test above */
   -o-background-size: fixed;
   -moz-background-size: cover;
-  -ms-backgorund-size:cover;
+  -ms-background-size:cover;
 }
 .cta2 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
@@ -742,7 +742,7 @@ section {
   height: 350px;
   -o-background-size: fixed;
   -moz-background-size: cover;
-  -ms-backgorund-size:cover;
+  -ms-background-size:cover;
 }
 .cta3 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
@@ -752,7 +752,7 @@ section {
   height: 350px;
   -o-background-size: fixed;
   -moz-background-size: cover;
-  -ms-backgorund-size:cover;
+  -ms-background-size:cover;
 }
 /* @media (min-width: 1024px) {
   .cta1 {
