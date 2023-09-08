@@ -753,17 +753,7 @@ section {
   padding: 60px 0;
   height: 350px;
 }
-/* @media (min-width: 1024px) {
-  .cta1 {
-    background-attachment: fixed;
-  }
-  .cta2 {
-    background-attachment: fixed;
-  }
-  .cta3 {
-    background-attachment: fixed;
-  }
-} */
+
 @supports (-webkit-touch-callout: none) {
   .cta1 {
       background: url('../img/raven5.webp') center top no-repeat scroll;
