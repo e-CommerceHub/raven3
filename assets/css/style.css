@@ -972,6 +972,7 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
+  height: 350px;
 }
 
 .testimonials::before {
