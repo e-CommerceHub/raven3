@@ -1,0 +1,11 @@
+# Block all search engines from indexing my private directory
+
+User-agent: *
+Allow: /*.css$
+Allow: /*.js$
+
+User-agent: *
+Allow: /*.jpg$
+Allow: /*.png$
+
+Sitemap: https://www.raven3.com.ar/sitemap.xml
