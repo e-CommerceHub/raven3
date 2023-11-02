@@ -273,7 +273,27 @@
         </div>
       </section> -->
       <!-- End Clients Section -->
-
+      <div class="audio-player" style="display: flex; align-items: center">
+        <audio id="audio-player" autoplay loop>
+          <source src="assets/Rain.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <button
+          id="mute-button"
+          style="
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            z-index: 10000;
+            position: fixed;
+            top: 100px;
+            left: 20px;
+          ">
+          🔊
+        </button>
+      </div>
       <!-- ======= Features Section ======= -->
       <section id="features" class="features">
         <div class="container" data-aos="fade-up">
@@ -1008,7 +1028,7 @@
 
             <div class="col-lg-3 col-md-3 footer-links"></div>
             <div class="col-lg-3 col-md-3 footer-links"></div>
-          
+
             <!-- <div class="col-lg-3 col-md-3 footer-links">
               <h4>Servicios Branding</h4>
               <ul>
