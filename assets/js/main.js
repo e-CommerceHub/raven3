@@ -418,10 +418,6 @@
   // Event listener for mute button click
   muteButton.addEventListener("click", toggleMute);
 
-  document.addEventListener("DOMContentLoaded", function () {
-    audioPlayer.play();
-  });
-
   /**
    * Initiate Pure Counter
    */
