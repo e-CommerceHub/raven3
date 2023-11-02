@@ -1,6 +1,10 @@
 (function () {
   "use strict";
 
+
+    let audio = document.getElementById("audio-player");
+    audio.play();
+
   // const cursor = document.querySelector('.cursor');
   // const links = document.querySelectorAll('nav ul li a');
   // const links2 = document.querySelectorAll('span');
