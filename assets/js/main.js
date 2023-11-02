@@ -1,9 +1,7 @@
 (function () {
   "use strict";
-
-
-    let audio = document.getElementById("audio-player");
-    audio.play();
+  
+  startAudio();
 
   // const cursor = document.querySelector('.cursor');
   // const links = document.querySelectorAll('nav ul li a');
@@ -469,4 +467,10 @@
     thisForm.querySelector(".error-message").innerHTML = error;
     thisForm.querySelector(".error-message").classList.add("d-block");
   }
+
+  function startAudio() {
+    var audio = document.getElementById("audio-player");
+    audio.play();
+  }
+
 })();
