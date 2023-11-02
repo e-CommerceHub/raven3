@@ -1,7 +1,7 @@
 (function () {
   "use strict";
-  
-    // const cursor = document.querySelector('.cursor');
+
+  // const cursor = document.querySelector('.cursor');
   // const links = document.querySelectorAll('nav ul li a');
   // const links2 = document.querySelectorAll('span');
   // const links3 = document.querySelectorAll('a');
@@ -399,9 +399,8 @@
   });
 
   /**
-   * Mute Button
+   * Mute Button & AUDIO PLAYER
    */
-
   const audioPlayer = document.getElementById("audio-player");
   const muteButton = document.getElementById("mute-button");
 
@@ -418,27 +417,11 @@
 
   // Event listener for mute button click
   muteButton.addEventListener("click", toggleMute);
-  
+
   document.addEventListener("DOMContentLoaded", function () {
-    // ...
-  
-    // Function to toggle mute/unmute
-    function toggleMute() {
-      if (audioPlayer.muted) {
-        audioPlayer.muted = false;
-        muteButton.textContent = "🔊"; // Speaker icon
-      } else {
-        audioPlayer.muted = true;
-        muteButton.textContent = "🔇"; // Muted speaker icon
-      }
-    }
-  
-    // Event listener for mute button click
-    muteButton.addEventListener("click", toggleMute);
-  
-    // Start the audio when the page loads
     audioPlayer.play();
   });
+
   /**
    * Initiate Pure Counter
    */
@@ -485,6 +468,4 @@
     thisForm.querySelector(".error-message").innerHTML = error;
     thisForm.querySelector(".error-message").classList.add("d-block");
   }
-
 })();
-
