@@ -486,10 +486,5 @@
     thisForm.querySelector(".error-message").classList.add("d-block");
   }
 
-  function startAudio() {
-    var audio = document.getElementById("audio-player");
-    audio.play();
-  }
-
 })();
 
