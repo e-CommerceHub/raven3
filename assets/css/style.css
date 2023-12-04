@@ -643,44 +643,6 @@ section {
   background-color: #37e2d5;
 }
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features {
-  margin-top: 100px;
-  padding-top: 20px;
-  margin-bottom: 100px;
-}
-
-.features .icon-box {
-  padding-left: 15px;
-}
-
-.features .icon-box h4 , h3, h3, h2, h1 {
-  font-size: 30px;
-  font-weight: 700;
-  margin: 5px 0 10px 60px;
-  color: white;
-}
-
-.features .icon-box i {
-  font-size: 30px;
-  float: left;
-  color: #37e2d5;
-}
-
-.features .icon-box p {
-  font-size: 15px;
-  color: #848484;
-  margin-left: 60px;
-}
-
-.features .image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
-}
 
 
 
