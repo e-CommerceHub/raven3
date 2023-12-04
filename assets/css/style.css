@@ -1578,7 +1578,7 @@ section {
 .wasap {
   position: fixed;
   left: 30px;
-  bottom: 20px;
+  bottom: 120px;
   height: 60px;
   width: 60px;
   z-index: 10000;
