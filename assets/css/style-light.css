@@ -274,3 +274,15 @@ color: white;
   margin: 5px 0 10px 60px;
   color: black;
 }
+.wasap {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  height: 60px;
+  width: 60px;
+  z-index: 10000;
+  visibility: visible;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 100;
+}

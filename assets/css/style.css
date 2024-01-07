@@ -1583,7 +1583,7 @@ section {
   width: 60px;
   z-index: 10000;
   visibility: visible;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-delay: 0s;
   animation-iteration-count: 100;
 }
