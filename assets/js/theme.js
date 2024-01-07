@@ -16,3 +16,6 @@ if (preloader) {
     preloader.remove();
   });
 }
+
+var currentYear = new Date().getFullYear();
+document.getElementById("pageLegend").innerHTML = "© "+ currentYear + " - www.raven3.com.ar";

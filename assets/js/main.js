@@ -87,6 +87,10 @@
   //     cursor.classList.remove('large');
   //   });
   // });
+
+  var currentYear = new Date().getFullYear();
+  document.getElementById("copyright").innerHTML = currentYear + " © Copyright <strong><span>Agencia raven3</span></strong>. Todos los derechos reservados. Argentina, Buenos Aires.";
+  
   /**
    * Easy selector helper function
    */
