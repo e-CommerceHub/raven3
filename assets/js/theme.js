@@ -18,4 +18,4 @@ if (preloader) {
 }
 
 var currentYear = new Date().getFullYear();
-document.getElementById("pageLegend").innerHTML = "© "+ currentYear + " - www.raven3.com.ar";
+document.getElementById("copyright").innerHTML = "© "+ currentYear + " - www.raven3.com.ar";
