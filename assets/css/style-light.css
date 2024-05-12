@@ -286,3 +286,18 @@ color: white;
   animation-delay: 0s;
   animation-iteration-count: 100;
 }
+
+.btn-service {
+	display: inline-block;
+	position: relative;
+	width: 240px;
+	height: 60px;
+	border-radius: 27px;
+	color: white;
+  background-color: #37e2d5;
+	font: 700 14px/60px  "Varela Round", sans-serif;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
