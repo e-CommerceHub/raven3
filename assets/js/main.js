@@ -405,22 +405,22 @@
   /**
    * Mute Button & AUDIO PLAYER
    */
-  const audioPlayer = document.getElementById("audio-player");
-  const muteButton = document.getElementById("mute-button");
+  // const audioPlayer = document.getElementById("audio-player");
+  // const muteButton = document.getElementById("mute-button");
 
   // Function to toggle mute/unmute
-  function toggleMute() {
-    if (audioPlayer.muted) {
-      audioPlayer.muted = false;
-      muteButton.textContent = "🔊"; // Speaker icon
-    } else {
-      audioPlayer.muted = true;
-      muteButton.textContent = "🔇"; // Muted speaker icon
-    }
-  }
+  // function toggleMute() {
+  //   if (audioPlayer.muted) {
+  //     audioPlayer.muted = false;
+  //     muteButton.textContent = "🔊"; // Speaker icon
+  //   } else {
+  //     audioPlayer.muted = true;
+  //     muteButton.textContent = "🔇"; // Muted speaker icon
+  //   }
+  // }
 
   // Event listener for mute button click
-  muteButton.addEventListener("click", toggleMute);
+  // muteButton.addEventListener("click", toggleMute);
 
   /**
    * Initiate Pure Counter

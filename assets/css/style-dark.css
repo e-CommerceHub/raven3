@@ -1,20 +1,21 @@
+@import url('colors.css');
 body {
-  color: white;
-  background-color: black;
+  color: var(--raven-white);
+  background-color: var(--raven-black);
   transition: color 0.2s ease-in-out;
   background-color: 0.2s ease-in-out;
 }
 
 a {
-  color: #37e2d5;
+  color: var(--raven-celeste);
   text-decoration: none;
 }
 
 a:hover{
-  color:white;
+  color:var(--raven-white);
 }
 span{
-  color: white;
+  color: var(--raven-white);
 }
 
 
@@ -24,7 +25,7 @@ span{
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black;
+  background: var(--raven-black);
 
 }
 /* Handle */
@@ -34,7 +35,7 @@ span{
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #37e2d5 ; 
+  background: var(--raven-celeste) ; 
 }
 
 .servicios .icon-box {
@@ -68,7 +69,7 @@ span{
 	width: 240px;
 	height: 60px;
 	border-radius: 27px;
-	color: #fff;
+	color: var(--raven-white);
 	font: 700 14px/60px  "Varela Round", sans-serif;
 	letter-spacing: 0.05em;
 	text-align: center;
@@ -106,7 +107,7 @@ span{
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #37e2d5;
+  background: var(--raven-celeste);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -128,24 +129,24 @@ span{
 }
 
 .servicios .icon-box h4 a {
-  color: white;
+  color: var(--raven-white);
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
 
 .servicios .icon-box h4 a:hover {
-  color: #37e2d5;
+  color: var(--raven-celeste);
 }
 
 .servicios .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  color: #ffffff;
+  color: var(--raven-white);
 }
 
 .servicios .icon-box:hover {
-  border-color: #fff;
+  border-color: var(--raven-white);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
@@ -167,7 +168,7 @@ span{
   font-size: 30px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
-  color: white;
+  color: var(--raven-white);
 }
 
 .features .icon-box i {
@@ -209,8 +210,8 @@ span{
 	width: 240px;
 	height: 60px;
 	border-radius: 27px;
-	color: white;
-  background-color: #37e2d5;
+	color: var(--raven-white);
+  background-color: var(--raven-celeste);
 	font: 700 14px/60px  "Varela Round", sans-serif;
 	letter-spacing: 0.05em;
 	text-align: center;
