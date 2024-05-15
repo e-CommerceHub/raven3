@@ -75,6 +75,7 @@
 }
 
 .cta-landing-1 video {
+    margin-top: 90px;
     position: absolute;
     top: 0;
     left: 0;
@@ -86,4 +87,15 @@
 .cta-landing-1 .container {
     position: relative;
     z-index: 1
+}
+
+.text-stroke-white {
+	font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+	font-size: 62px;
+	font-weight: 700;
+	line-height: 1.2;
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #fff;
 }
