@@ -18,7 +18,7 @@
   }
   .carousel-item::before {
     content: "";
-    /* background-color: rgba(0, 0, 0, 0.481); */
+    background-color: rgba(0, 0, 0, 0.228);
     position: absolute;
     inset: 0;
   }
