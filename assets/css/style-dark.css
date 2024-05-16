@@ -182,6 +182,11 @@ span{
   color: #848484;
   margin-left: 60px;
 }
+@media only screen and (max-width: 412px) {
+  .features .icon-box p {
+      margin-right: 60px;
+  }
+}
 
 .features .image {
   background-image: url('../img/R3.N.png');

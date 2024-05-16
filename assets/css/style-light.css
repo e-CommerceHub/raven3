@@ -132,6 +132,11 @@ font-weight: bold;
   align-items: center;
   background-color: var(--raven-white);
 }
+@media only screen and (max-width: 412px) {
+  .portfolio2 {
+      height: 50vh;
+  }
+}
 
 .btn-liquid {
 	display: inline-block;
@@ -259,6 +264,11 @@ color: var(--raven-white);
   font-size: 15px;
   color: #444141;
   margin-left: 60px;
+}
+@media only screen and (max-width: 412px) {
+  .features .icon-box p {
+      margin-right: 60px;
+  }
 }
 
 .features .image {
