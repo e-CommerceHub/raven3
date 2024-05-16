@@ -88,6 +88,11 @@
     margin-top: 69px;
   }
 }
+@media only screen and (max-width: 992px) {
+  .cta-landing-1 video {
+    margin-top: 69px;
+  }
+}
 
 .cta-landing-1 .container {
     position: relative;
