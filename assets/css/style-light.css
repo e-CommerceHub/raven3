@@ -282,7 +282,7 @@ color: var(--raven-white);
 .features .icon-box h4 , h3, h3, h2, h1 {
   font-size: 30px;
   font-weight: 700;
-  margin: 5px 0 10px 60px;
+  margin: 5px 60px 10px 60px;
   color: var(--raven-black);
 }
 .wasap {
