@@ -63,6 +63,11 @@ span{
   align-items: center;
   background-color: #000;
 }
+@media only screen and (max-width: 412px) {
+  .portfolio2 {
+      height: 50vh;
+  }
+}
 .btn-liquid {
 	display: inline-block;
 	position: relative;
