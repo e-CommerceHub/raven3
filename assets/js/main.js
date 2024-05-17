@@ -463,7 +463,7 @@
       });
   }
 
-  if (typeof form != "undefined") {
+  if (form) {
     form.addEventListener("submit", handleSubmit);
   }
 
