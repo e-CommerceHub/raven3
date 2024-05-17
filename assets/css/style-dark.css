@@ -21,17 +21,21 @@ span{
 
 /* scrollbar custom */
 ::-webkit-scrollbar {
-  width: 8px;
+  background: var(--color-black);
+  border-left: 1px solid var(--raven-black);
 }
 /* Track */
 ::-webkit-scrollbar-track {
   background: var(--raven-black);
 
 }
+::-webkit-scrollbar-corner {
+  background: var(--raven-black);
+}
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #555; 
-  border-radius: 10px;
+  border-radius: 8px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

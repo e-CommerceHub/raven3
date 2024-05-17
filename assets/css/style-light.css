@@ -95,20 +95,24 @@ font-weight: bold;
 }
 /* scrollbar custom */
 ::-webkit-scrollbar {
-  width: 8px;
+  background: var(--color-white);
+  border-left: 1px solid var(--raven-black);
 }
 /* Track */
 ::-webkit-scrollbar-track {
   background: var(--raven-white);
 }
+::-webkit-scrollbar-corner {
+  background: var(--raven-white);
+}
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #555;
-  border-radius: 10px; 
+  border-radius: 8px; 
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--raven-celeste)  ; 
+  background: var(--raven-celeste); 
 }
 
 .portfolio2{
