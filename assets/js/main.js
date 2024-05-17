@@ -89,8 +89,10 @@
   // });
 
   var currentYear = new Date().getFullYear();
-  document.getElementById("copyright").innerHTML = currentYear + " © Copyright <strong><span>Agencia raven3</span></strong>. Todos los derechos reservados. Argentina, Buenos Aires.";
-  
+  document.getElementById("copyright").innerHTML =
+    currentYear +
+    " © Copyright <strong><span>Agencia raven3</span></strong>. Todos los derechos reservados. Argentina, Buenos Aires.";
+
   /**
    * Easy selector helper function
    */
@@ -461,7 +463,9 @@
       });
   }
 
-  form.addEventListener("submit", handleSubmit);
+  if (typeof form != "undefined") {
+    form.addEventListener("submit", handleSubmit);
+  }
 
   function displayError(thisForm, error) {
     thisForm.querySelector(".loading").classList.remove("d-block");
