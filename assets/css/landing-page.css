@@ -1,7 +1,7 @@
 @import url('colors.css');
 .carousel {
     width: 100%;
-    min-height: 100vh;
+    min-height: 75vh;
     padding: 80px 0;
     margin: 0;
     position: relative;
