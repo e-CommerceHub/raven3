@@ -85,15 +85,9 @@
             La página que intentas solicitar no esta en el servidor.
           </p>
           <!-- Otro contenido a la izquierda si es necesario -->
-          <a
-            href="index.html"
-            style="
-              color: var(--raven-celeste);
-              text-decoration: none;
-              cursor: pointer;
-            "
-            ><h5>Clickea para volver a Tierra</h5></a
-          >
+          <button onclick="window.location.href='index.html'">
+            Clickea para volver a Tierra
+          </button>
         </div>
         <div
           class="col-xl-12 text-center"
@@ -115,5 +109,14 @@
         </div>
       </div>
     </div>
+
+    <footer id="footer">
+      <div class="text-center">
+
+        <div class="copyright" id="copyright"></div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
