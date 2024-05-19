@@ -43,21 +43,10 @@
       content="https://www.raven3.com.ar/assets/img/R3.B.png"
     />
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
@@ -85,38 +74,30 @@
             La página que intentas solicitar no esta en el servidor.
           </p>
           <!-- Otro contenido a la izquierda si es necesario -->
-          <button onclick="window.location.href='index.html'">
-            Clickea para volver a Tierra
-          </button>
+          <button id="backearth">Clickea para volver a Tierra</button>
         </div>
         <div
           class="col-xl-12 text-center"
           style="position: relative; text-align: center; color: white"
         >
-          <img src="assets/img/astro.png" alt="Imagen del astronauta" />
-          <h1
-            style="
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-              font-size: 400px;
-              z-index: -1;
-            "
-          >
-            404
-          </h1>
+          <img
+            src="assets/img/astro.png"
+            alt="Imagen del astronauta"
+            style="filter: grayscale()"
+          />
+          <h1 id="cuatroh1">404</h1>
         </div>
       </div>
     </div>
 
     <footer id="footer">
       <div class="text-center">
-
         <div class="copyright" id="copyright"></div>
       </div>
     </footer>
 
-    <script src="assets/js/main.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/jsbutton.js"></script>
+    <script src="assets/js/404.js"></script>
   </body>
 </html>
