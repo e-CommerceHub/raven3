@@ -17,13 +17,19 @@ body {
   background-color: var(--raven-celeste);
   color: var(--raven-white);
 }
-#cuatroh1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 400px;
-    z-index: -1;
+#cuatroh1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 400px;
+  z-index: -1;
+}
+#astro {
+  filter: grayscale();
+}
+#astro :hover {
+  filter: none;
 }
 
 .full-wh {
