@@ -651,7 +651,6 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio2{
-  height: 75vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
