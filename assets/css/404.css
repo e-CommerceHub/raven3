@@ -4,7 +4,10 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
-
+.copyright{
+  color: var(--raven-white);
+  font-size: 10px;
+}
 /* Styles for screens smaller than 412px */
 @media screen and (max-width: 412px) {
   #astro {
