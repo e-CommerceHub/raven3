@@ -1,7 +1,6 @@
 (function () {
-    "use strict";
+  "use strict";
 
-    
   /**
    * Clients Slider
    */
