@@ -5,6 +5,17 @@ body {
   overflow-x: hidden;
 }
 
+/* Styles for screens smaller than 412px */
+@media screen and (max-width: 412px) {
+  #astro {
+    scale: 0.6;
+    margin-left: 0;
+  }
+  #cuatroh1 {
+    font-size: 200px !important;
+  }
+}
+
 #backearth {
   background-color: var(--raven-white);
   border-radius: 12px;
@@ -27,12 +38,12 @@ body {
 }
 @keyframes scale-up {
   0% {
-      transform: scale(0.001);
-      opacity: 1;
+    transform: scale(0.001);
+    opacity: 1;
   }
   100% {
-      transform: scale(1);
-      opacity: 1;
+    transform: scale(1);
+    opacity: 1;
   }
 }
 #astro {
