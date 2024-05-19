@@ -28,7 +28,7 @@ body {
 #astro {
   filter: grayscale();
 }
-#astro :hover {
+#astro:hover {
   filter: none;
 }
 
