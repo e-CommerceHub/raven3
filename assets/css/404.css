@@ -25,8 +25,19 @@ body {
   font-size: 400px;
   z-index: -1;
 }
+@keyframes scale-up {
+  0% {
+      transform: scale(0.001);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
 #astro {
   filter: grayscale();
+  animation: scale-up 10s ease-out both;
 }
 #astro:hover {
   filter: none;
