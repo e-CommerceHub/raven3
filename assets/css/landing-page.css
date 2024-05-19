@@ -1,4 +1,7 @@
 @import url("colors.css");
+i{
+color: var(--raven-celeste);
+}
 .carousel {
   width: 100%;
   min-height: 75vh;
