@@ -6,12 +6,16 @@ body {
 }
 
 #backearth {
-  background-color: var(--raven-celeste);
-  padding: 25px;
-  border-radius: 50px;
-  color: var(--raven-white);
+  background-color: var(--raven-white);
+  border-radius: 12px;
+  padding: 5px 10px 5px 10px;
+  color: var(--raven-black);
   cursor: pointer;
   z-index: 9999;
+}
+#backearth:hover {
+  background-color: var(--raven-celeste);
+  color: var(--raven-white);
 }
 #cuatroh1{
     position: absolute;
