@@ -316,3 +316,9 @@ color: var(--raven-white);
 	text-decoration: none;
 	text-transform: uppercase;
 }
+.btn-landing{
+  background: rgba(0, 0, 0, 0.8);
+}
+.btn-landing:hover{
+  color: #343a40;
+}

@@ -2,6 +2,16 @@
 i{
 color: var(--raven-celeste);
 }
+h1{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 60px 10px 60px;
+  color: var(--raven-black);
+}
+p{
+  font-size: 15px;
+  /* margin: 40px 60px 10px 60px; */
+}
 .carousel {
   width: 100%;
   min-height: 75vh;

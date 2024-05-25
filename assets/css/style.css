@@ -1414,6 +1414,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
   background: black;
   padding: 0 0 30px 0;
@@ -1523,21 +1524,21 @@ section {
   cursor: pointer;
 }
 
-#footer .footer-top .footer-newsletter form {
+/* #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
-}
+} */
 
-#footer .footer-top .footer-newsletter form input[type="email"] {
+/* #footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
-}
+} */
 
-#footer .footer-top .footer-newsletter form input[type="submit"] {
+/* #footer .footer-top .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: -2px;
@@ -1550,11 +1551,11 @@ section {
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
-}
+} */
 
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+/* #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: #ffcd6b;
-}
+} */
 
 #footer .copyright {
   text-align: center;
@@ -1569,7 +1570,22 @@ section {
   color: #fff;
 }
 
-.letralinda {
+/* Centrar todo el contenido en dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  /* Ajusta el selector según tus necesidades */
+  #footer {
+    text-align: center;
+  }
+  .landing-ul{
+    display: inline-block;
+  }
+}
+
+/*--------------------------------------------------------------
+# otros
+--------------------------------------------------------------*/
+
+.varela {
   font-family: "Varela Round", sans-serif;
 }
 .content {
