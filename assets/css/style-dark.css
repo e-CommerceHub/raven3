@@ -235,3 +235,8 @@ span{
 .swiper-slide img{
   filter: brightness(0) invert(1);
 }
+.btn-landing{
+  background: rgba(0, 0, 0, 0.8);
+  padding:10px 25px 10px 25px;
+  border-radius: 15px;
+}
