@@ -137,10 +137,11 @@ p{
   -ms-background-size: cover;
   -webkit-background-size: cover;
   padding: 60px 0;
-  height: 350px;
+  height: 200px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 
 @supports (-webkit-touch-callout: none) {
   .cta2 {
