@@ -318,6 +318,8 @@ color: var(--raven-white);
 }
 .btn-landing{
   background: rgba(0, 0, 0, 0.8);
+  padding:10px 25px 10px 25px;
+  border-radius: 15px;
 }
 .btn-landing:hover{
   color: #343a40;
