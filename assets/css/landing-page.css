@@ -1,14 +1,17 @@
 @import url("colors.css");
-i{
-color: var(--raven-celeste);
+i {
+  color: var(--raven-celeste);
 }
-h1{
+h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 10px 60px 10px 60px;
   color: var(--raven-black);
 }
-p{
+body{
+overflow-x: hidden;
+}
+p {
   font-size: 15px;
   /* margin: 40px 60px 10px 60px; */
 }
@@ -141,7 +144,6 @@ p{
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 
 @supports (-webkit-touch-callout: none) {
   .cta2 {
