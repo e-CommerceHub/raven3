@@ -1579,6 +1579,10 @@ section {
   #footer .footer-top .footer-links ul{
     display: inline-block;
   }
+  .justified-items{
+    display: grid !important;
+    justify-items: center;
+  }
 }
 
 /*--------------------------------------------------------------
