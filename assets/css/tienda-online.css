@@ -121,9 +121,7 @@ p {
   font-size: 120px;
   font-weight: 700;
   line-height: 1.2;
-  color: transparent;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: white;
+  color: rgba(255, 255, 255, 0.500);
 }
 @media (max-width: 412px) {
   .text-stroke-white {
