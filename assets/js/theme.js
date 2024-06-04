@@ -1,13 +1,6 @@
 function theme_set(toggled) {
-  let styleLight = document.getElementById("style-light");
-  let styleDark = document.getElementById("style-dark");
-  if (styleLight) {
-    styleLight.disabled = toggled;
-  }
-
-  if (styleDark) {
-    styleDark.disabled = !toggled;
-  }
+  document.getElementById("style-light").disabled = toggled;
+  document.getElementById("style-dark").disabled = !toggled;
   localStorage.setItem("theme-toggled", toggled ? "1" : "");
 }
 
