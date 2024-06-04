@@ -81,7 +81,9 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link id="style-light" rel="stylesheet" href="assets/css/style-light.css" />
-    <link id="style-dark" rel="stylesheet" href="assets/css/style-dark.css" />
+    <link rel="preload" href="assets/css/style-dark.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/style-dark.css"></noscript>
+    <!-- <link id="style-dark" rel="stylesheet" href="assets/css/style-dark.css" /> -->
   </head>
 
   <body>
