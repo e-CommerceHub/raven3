@@ -1,14 +1,27 @@
 function theme_set(toggled) {
-  document.getElementById("style-light").disabled = toggled;
-  document.getElementById("style-dark").disabled = !toggled;
+  let styleLight = document.getElementById("style-light");
+  let styleDark = document.getElementById("style-dark");
+
+  if (styleLight) {
+    styleLight.disabled = toggled;
+  }
+
+  if (styleDark) {
+    styleDark.disabled = !toggled;
+  }
+
   localStorage.setItem("theme-toggled", toggled ? "1" : "");
 }
 
 function theme_toggle() {
-  theme_set(!document.getElementById("style-light").disabled);
+  let styleLight = document.getElementById("style-light");
+
+  if (styleLight) {
+    theme_set(!styleLight.disabled);
+  }
 }
 
-theme_set(localStorage.getItem("theme-toggled"));
+theme_set(localStorage.getItem("theme-toggled") === "1");
 
 let preloader = document.getElementById("preloader");
 if (preloader) {
