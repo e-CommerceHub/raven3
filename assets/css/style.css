@@ -1590,7 +1590,7 @@ section {
 --------------------------------------------------------------*/
 
 .varela {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Varela Round", sans-serif !important;
 }
 .content {
   width: 100%;
