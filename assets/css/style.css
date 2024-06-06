@@ -1474,10 +1474,9 @@ section {
   text-decoration: none;
 }
 
-#footer .footer-top h4 {
+#footer .footer-top h1 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }

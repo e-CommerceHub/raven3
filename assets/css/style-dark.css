@@ -17,6 +17,14 @@ a:hover{
 span{
   color: var(--raven-white);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--raven-white) !important;
+}
 
 
 /* scrollbar custom */
@@ -173,11 +181,11 @@ span{
   padding-left: 15px;
 }
 
-.features .icon-box h4 , h3, h3, h2, h1 {
+.features .icon-box h4 ,.features .icon-box h3,.features .icon-box h2,.features .icon-box h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 5px 60px 10px 60px;
-  color: var(--raven-white);
+  color: var(--raven-black);
 }
 
 .features .icon-box i {

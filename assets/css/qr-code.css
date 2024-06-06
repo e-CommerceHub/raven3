@@ -5,7 +5,6 @@ i {
 h1 {
   font-size: 30px;
   font-weight: 700;
-  margin: 10px 60px 10px 60px;
   color: var(--raven-black);
 }
 body{
@@ -121,7 +120,7 @@ p {
   font-size: 120px;
   font-weight: 700;
   line-height: 1.2;
-  color: rgba(255, 255, 255, 0.500)!important;
+  color: rgba(255, 255, 255, 0.500) !important;
 }
 @media (max-width: 412px) {
   .text-stroke-white {
