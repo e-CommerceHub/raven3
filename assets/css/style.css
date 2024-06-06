@@ -556,7 +556,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #848484;
+  color: #595959;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1171,7 +1171,7 @@ section {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #848484;
+  color: #595959;
 }
 /* -----   REST OF THE TEAM FINISH -------    */
 .team .member .member-info h4 {
@@ -1185,7 +1185,7 @@ section {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #848484;
+  color: #595959;
 }
 
 .team .member .member-info p {
@@ -1238,7 +1238,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #848484;
+  color: #595959;
 }
 
 .contact .info .email,
@@ -1512,7 +1512,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #848484;
+  color: #595959;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
