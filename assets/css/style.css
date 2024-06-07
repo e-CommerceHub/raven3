@@ -50,6 +50,12 @@ h6 {
   font-family: "Varela Round", sans-serif;
 }
 
+.white{
+  color: var(--raven-white) !important;
+}
+.black {
+  color: var(--raven-black) !important;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
