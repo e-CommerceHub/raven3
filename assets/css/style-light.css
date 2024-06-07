@@ -22,7 +22,12 @@ h5,
 h6 {
   color: var(--raven-black) !important;
 }
-
+.white{
+  color: var(--raven-white) !important;
+}
+.black {
+  color: var(--raven-black) !important;
+}
 
 .credits a:hover {
 font-weight: bold;

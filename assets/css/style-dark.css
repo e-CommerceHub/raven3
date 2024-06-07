@@ -26,7 +26,12 @@ h6 {
   color: var(--raven-white) !important;
 }
 
-
+.white{
+  color: var(--raven-white) !important;
+}
+.black {
+  color: var(--raven-black) !important;
+}
 /* scrollbar custom */
 ::-webkit-scrollbar {
   background: var(--color-black);
