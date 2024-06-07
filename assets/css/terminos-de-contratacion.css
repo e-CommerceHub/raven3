@@ -2931,6 +2931,14 @@ h6 {
 .moody-list__heading > h6 {
   line-height: 26px;
 }
+.moody-list__heading > p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: .5rem;    
+  letter-spacing: -0.03em;
+  line-height: 26px;
+  font-family: "Varela Round", sans-serif;
+}
 .two-cols > li {
   width: calc(100% / 2 - 30px);
   float: left;
