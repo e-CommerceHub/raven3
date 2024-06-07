@@ -1232,7 +1232,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+.contact .info h1 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
