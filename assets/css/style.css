@@ -5,6 +5,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.white{
+  color: var(--raven-white) !important;
+}
+.black {
+  color: var(--raven-black) !important;
+}
 html {
   background-color: var(--raven-black);
 }
