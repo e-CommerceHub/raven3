@@ -5,12 +5,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.white{
-  color: var(--raven-white) !important;
-}
-.black {
-  color: var(--raven-black) !important;
-}
 html {
   background-color: var(--raven-black);
 }
@@ -867,7 +861,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
 }
 
