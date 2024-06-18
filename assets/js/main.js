@@ -280,6 +280,10 @@
     });
   }
 
+    /**
+   * Initiate Pure Counter 
+   */
+    new PureCounter();
 
   /**
    * Porfolio isotope and filter

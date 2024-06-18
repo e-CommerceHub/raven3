@@ -2,13 +2,13 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Raven3® | Desarrollo Web a medida</title>
+    <title>Raven3 ® | Desarrollo Web a medida</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="title" content="Raven3 | Development Agency" />
     <meta
       name="description"
-      content="Raven3 is a cutting-edge agency specializing in web and mobile development. Our team of skilled developers delivers innovative solutions to drive business success."
+      content="Raven3 is a agency specializing in web and mobile development. Our team of skilled developers delivers innovative solutions to drive business success."
     />
     <meta name="author" content="raven3® Soluciones Web & Servicios Digitales para empresas">
     <meta name="city" content="Buenos Aires">
@@ -27,7 +27,7 @@
     <meta property="og:title" content="Raven3 - Development Agency" />
     <meta
       property="og:description"
-      content="Raven3 is a cutting-edge agency specializing in web and mobile development. Our team of skilled developers delivers innovative solutions to drive business success."
+      content="Raven3 is a agency specializing in web and mobile development. Our team of skilled developers delivers innovative solutions to drive business success."
     />
     <meta
       property="og:image"
@@ -119,8 +119,25 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
             <li><a class="nav-link scrollto" href="#features">Nosotros</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#servicios">Servicios</a>
+            
+            <li class="dropdown">
+              <a href="#"
+                ><span style="color: white">Servicios</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li>
+                  <!-- <i class="bx bx-chevron-right"></i> -->
+                  <a href="landing-page.html" style="color: black;">Landing Pages</a>
+                </li>
+                <li>
+                  <a href="tienda-online.html" style="color: black;">Tienda Online </a>
+                </li>
+                <li>
+                  <a href="qr-code-page.html" style="color: black;">Códigos QR</a>
+                </li>
+            
+              </ul>
             </li>
             <li>
               <a class="nav-link scrollto" href="portfolio.html">Portfolio</a>
@@ -203,8 +220,69 @@
     </header>
     <!-- End Header -->
 
+    <section id="hero">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  
+  
+        <div class="carousel-inner" role="listbox">
+  
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/carousel/index/slide-1.jpg)">
+            <div class="carousel-container">
+              <div class="container" >
+                  <span class="glitch" data-text="Especialistas">Especialistas</span>
+                  <span class="glitch">que</span>
+                  <span class="glitch">trabajan</span>
+                  <span class="glitch">para</span>
+                  <span class="glitch">tu</span>
+                  <span class="glitch" data-text="marca.">marca.</span>
+  
+                  <p class="white">
+                    Agencia de desarrollo web y soluciones digitales
+                    <span class="celes">.</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/carousel/index/slide-2.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h1 class="animated fadeInDown white">Sitio Web</h1>
+                <p class="animated fadeInUp">Marca presencia en internet con un sitio web. Tus potenciales clientes podrán conocerte, explorar tus productos/servicios y contactarte. La comunicación de tu empresa será atractiva, clara y única. Tendrás presencia en Google y los buscadores más utilizados.Tu web estará optimizada para una mejor experiencia de usuario.</p>
+                <a href="landing-page.html" class="btn-get-started animated fadeInUp scrollto">Más Info</a>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(assets/img/carousel/index/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h1 class="animated fadeInDown white">Tienda Online</h1>
+                <p class="animated fadeInUp">¿Queres lanzar tu propia tienda online pero no sabes por dónde empezar? ¡Nosotros te guiamos en cada paso! Con nuestra experiencia y dedicación, convertiremos tu visión en una realidad digital impresionante y fácil de gestionar. ¡Contáctanos y da el primer paso hacia el éxito en línea!</p>
+                <a href="tienda-online.html" class="btn-get-started animated fadeInUp scrollto">Más Info</a>
+              </div>
+            </div>
+          </div>
+
+          
+  
+        </div>
+  
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+  
+      </div>
+    </section><!-- End Hero -->
+
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center justify-content-center">
+    <!-- <section id="hero" class="d-flex align-items-center justify-content-center">
       <video playsinline autoplay muted loop auto preload="auto" id="myVideo">
         <source src="assets/video/video.mp4" type="video/mp4" />
         Somos una agencia creada para que puedas vender online de manera
@@ -229,7 +307,6 @@
                 >.</span
               >
             </h2>
-            <!-- <span class="glitch" data-text="CREATIVE">Creative</span> -->
           </div>
         </div>
 
@@ -241,7 +318,7 @@
          
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Hero -->
 
     <br />
@@ -269,6 +346,8 @@
         </button>
       </div> -->
 
+
+        
       <!-- ======= Features Section ======= -->
       <section id="features" class="features">
         <div class="container" data-aos="fade-up">
@@ -365,90 +444,9 @@
       </section>
       <!-- End Features Section -->
 
-      <section id="cta1" class="cta1">
-        <div class="container">
-          <h1 style="display: none">web design</h1>
-          <h1 style="display: none">ecommerce</h1>
-          <h1 style="display: none">software development</h1>
-          <h1 style="display: none">paid ads</h1>
-        </div>
-      </section>
 
-      <!-- ======= servicios Section ======= -->
-      <section id="servicios" class="servicios">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2 id="digital" class="varela">Nuestros</h2>
-            <p class="varela">Servicios Digitales</p>
-          </div>
 
-          <div class="row">
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              id="landing"
-            >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-layout-text-window-reverse"></i>
-                </div>
-                <h1><a href="landing-page.html" >Landing Page</a></h1>
-                <p>
-                  Ideal para campañas publicitarias. Diseño adapatable mobile, tablet, desktop.
-                  Formulario de contacto, links a redes sociales y Botón de
-                  Whatsapp
-                </p>
-                <hr />
-                <button class="get-started-btn btn-landing" onclick="window.location.href='landing-page.html'" > Más Información</button>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-              id="onlinestore"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-cart4"></i></div>
-                <h1><a href="tienda-online.html">Tienda Online</a></h1>
-                <p>
-                  Vendé tus productos en línea. Sitio creado en Tiendanube,
-                  Diseño de Tienda, Puesta en Marcha, Carga de Productos,
-                  Asesoramiento.
-                </p>
-        
-                <hr />
-                <button class="get-started-btn btn-landing" onclick="window.location.href='tienda-online.html'"> Más Información</button>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
-              data-aos="zoom-in"
-              data-aos-delay="600"
-              id="codigosqr"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-qr-code"></i></div>
-                <h1><a href="qr-code-page.html">Códigos QR </a></h1>
-
-                <p>
-                  Digitalizamos tu necesidad, Menús digitales para restaurantes,
-                  Códigos QR para mejorar la experiencia del usuario.
-                </p>
-              
-                <hr />
-                <button class="get-started-btn btn-landing"  onclick="window.location.href='qr-code-page.html'"> Más Información</button>
-              </div>
-            </div>
-
-           
-          </div>
-        </div>
-      </section>
-
+    
       <!-- <section id="cta2" class="cta2">
         <div class="container"></div>
       </section> -->
@@ -555,134 +553,164 @@
       <section id="cta4" class="cta4">
         <div class="container"></div>
       </section>
-
-      <!-- ======= Counts Section ======= -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <!-- <section
-        id="testimonials"
-        class="testimonials"
-        style="margin-bottom: 50px; margin-top: 50p;"
-      > -->
-      <!-- <div class="container" data-aos="zoom-in">
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-1.webp"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec
-                    porttitora entum suscipit rhoncus. Accusantium quam,
-                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                    risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-2.webp"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse
-                    labore quem cillum quid cillum eram malis quorum velit fore
-                    eram velit sunt aliqua noster fugiat irure amet legam anim
-                    culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.webp"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim
-                    sint quorum nulla quem veniam duis minim tempor labore quem
-                    eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-4.webp"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                    multos export minim fugiat minim velit minim dolor enim duis
-                    veniam ipsum anim magna sunt elit fore quem dolore labore
-                    illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-5.webp"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure
-                    aliqua veniam tempor noster veniam enim culpa labore duis
-                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
-                    fore nisi cillum quid.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
+        <!-- ======= servicios Section ======= -->
+        <section id="servicios" class="servicios">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2 id="digital" class="varela">Nuestros</h2>
+              <p class="varela">Servicios Digitales</p>
             </div>
-            <div class="swiper-pagination"></div>
+  
+            <div class="row">
+              <div
+                class="col-lg-4 col-md-6 d-flex align-items-stretch"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                id="landing"
+              >
+                <div class="icon-box">
+                  <div class="icon">
+                    <i class="bi bi-layout-text-window-reverse"></i>
+                  </div>
+                  <h1><a href="landing-page.html" >Landing Page</a></h1>
+                  <p>
+                    Ideal para campañas publicitarias. Diseño adapatable mobile, tablet, desktop.
+                    Formulario de contacto, links a redes sociales y Botón de
+                    Whatsapp
+                  </p>
+                  <hr />
+                  <button class="get-started-btn btn-landing" onclick="window.location.href='landing-page.html'" > Más Información</button>
+                </div>
+              </div>
+  
+              <div
+                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+                id="onlinestore"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-cart4"></i></div>
+                  <h1><a href="tienda-online.html">Tiendas</a></h1>
+                  <p>
+                    Vendé tus productos en línea. Tienda diseñada a medida,
+                    Puesta en Marcha, Carga de Productos,
+                    Asesoramiento.
+                  </p>
+          
+                  <hr />
+                  <button class="get-started-btn btn-landing" onclick="window.location.href='tienda-online.html'"> Más Información</button>
+                </div>
+              </div>
+  
+              <div
+                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+                id="codigosqr"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-qr-code"></i></div>
+                  <h1><a href="qr-code-page.html">Códigos QR </a></h1>
+  
+                  <p>
+                    Digitalizamos tu necesidad, Menús digitales para restaurantes,
+                    Códigos QR para mejorar la experiencia del usuario.
+                  </p>
+                
+                  <hr />
+                  <button class="get-started-btn btn-landing"  onclick="window.location.href='qr-code-page.html'"> Más Información</button>
+                </div>
+              </div>
+
+              
+              
+  
+             
+            </div>
+
+            <div class="row mt-5">
+              <div
+                class="col-lg-4 col-md-6 d-flex align-items-stretch"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                id="landing"
+              >
+                <div class="icon-box">
+                  <div class="icon">
+                    <i class="bi bi-layout-text-window-reverse"></i>
+                  </div>
+                  <h1><a href="landing-page.html" >Landing Page</a></h1>
+                  <p>
+                    Ideal para campañas publicitarias. Diseño adapatable mobile, tablet, desktop.
+                    Formulario de contacto, links a redes sociales y Botón de
+                    Whatsapp
+                  </p>
+                  <hr />
+                  <button class="get-started-btn btn-landing" onclick="window.location.href='landing-page.html'" > Más Información</button>
+                </div>
+              </div>
+  
+              <div
+                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+                id="onlinestore"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-cart4"></i></div>
+                  <h1><a href="tienda-online.html">Tiendas</a></h1>
+                  <p>
+                    Vendé tus productos en línea. Tienda diseñada a medida,
+                    Puesta en Marcha, Carga de Productos,
+                    Asesoramiento.
+                  </p>
+          
+                  <hr />
+                  <button class="get-started-btn btn-landing" onclick="window.location.href='tienda-online.html'"> Más Información</button>
+                </div>
+              </div>
+  
+              <div
+                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+                id="codigosqr"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-qr-code"></i></div>
+                  <h1><a href="qr-code-page.html">Códigos QR </a></h1>
+  
+                  <p>
+                    Digitalizamos tu necesidad, Menús digitales para restaurantes,
+                    Códigos QR para mejorar la experiencia del usuario.
+                  </p>
+                
+                  <hr />
+                  <button class="get-started-btn btn-landing"  onclick="window.location.href='qr-code-page.html'"> Más Información</button>
+                </div>
+              </div>
+
+              
+              
+  
+             
+            </div>
+            
           </div>
-        </div> -->
-      <!-- </section> -->
+        </section>
+
+        <section id="cta1" class="cta1">
+          <div class="container">
+          </div>
+        </section>
+    
 
       <section id="portfolio2" class="portfolio2" data-aos="zoom-in" >
         <a href="portfolio.html" class="btn-liquid">
           <span class="inner">Ver Proyectos</span>
         </a>
       </section>
-
-
-       
 
       <section id="cta3" class="cta3">
         <div class="container"></div>
@@ -702,7 +730,7 @@
               <div class="info"  >
                 <div class="address" data-aos="fade-right"  data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
-                  <h1>Locación:</h1>
+                  <h1>Ubicación:</h1>
                   <p>
                     Cmte. Leonardo Rosales 2483, Olivos, Buenos Aires. Argentina
                   </p>
@@ -710,7 +738,7 @@
 
                 <div class="email" data-aos="fade-right"  data-aos-delay="300">
                   <i class="bi bi-envelope"></i>
-                  <h1>Email:</h1>
+                  <h1>Consultas:</h1>
                   <p>hola@raven3.com.ar</p>
                 </div>
 
