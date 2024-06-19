@@ -1,6 +1,6 @@
 @import url("colors.css");
-i {
-  color: var(--raven-celeste);
+.celes{
+  color: var(--raven-celeste) !important;
 }
 h1 {
   font-size: 30px;
