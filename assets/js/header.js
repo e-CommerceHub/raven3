@@ -1,10 +1,14 @@
 const header = [
     {
-      title: "Los Secretos para una Tienda en Línea Exitosa",
-      content: "En este post, exploraremos las claves para crear una tienda en línea exitosa que atraiga a tus clientes ideales y aumente tus ventas. Si estás pensando en lanzar una tienda virtual, sigue leyendo.",
-      subtitle:"Los Secretos para una Tienda en Línea Exitosa",
-      image: "../assets/img/blog/1.jpg",
-      date: "06 - Junio - 2024"
+      img_logo: "assets/img/logo.png",
+      nav_title_1: "Nosotros",
+      nav_title_2: "Servicios Digitales",
+      nav_title_3: "Servicios Marketing",
+      nav_title_4: "Portfolio",
+      service_d_1:"Sitios Web",
+      service_d_2:"Tiendas Online",
+      service_m_1:"Contenido para Redes",
+      btn_contacto: "Contacto"
     },
 
   ];
@@ -18,38 +22,35 @@ const header = [
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li><a class="nav-link scrollto" href="#features">Nosotros</a></li>
+            <li><a class="nav-link scrollto" href="#features">${header.nav_title_1}</a></li>
             
             <li class="dropdown">
               <a href="#"
-                ><span id="service">Servicios Digitales</span>
+                ><span id="service">${header.nav_title_2}</span>
                 <i class="bi bi-chevron-down dropdown-indicator"></i
               ></a>
               <ul>
                 <li>
-                 
-                  <a href="sitios-web.html" style="color: black;">Sitios Web</a>
+                  <a href="sitios-web.html" style="color: black;">${header.service_d_1}</a>
                 </li>
                 <li>
-                  <a href="tienda-online.html" style="color: black;">Tiendas Online </a>
+                  <a href="tienda-online.html" style="color: black;">${header.service_d_2} </a>
                 </li>
-       
-            
               </ul>
             </li>
             <li class="dropdown">
               <a href="#"
-                ><span id="service">Servicios Marketing</span>
+                ><span id="service">${header.nav_title_3}</span>
                 <i class="bi bi-chevron-down dropdown-indicator"></i
               ></a>
               <ul>
                 <li>
-                  <a href="redes.html" style="color: black;">Redes</a>
+                  <a href="redes.html" style="color: black;">${header.service_m_1}</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a class="nav-link scrollto" href="portfolio.html">Portfolio</a>
+              <a class="nav-link scrollto" href="portfolio.html">${header.nav_title_4}</a>
             </li>
            
             <li>
