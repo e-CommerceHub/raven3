@@ -47,8 +47,6 @@ font-weight: bold;
   border: 1px solid #bbe4e4;
   transition: all ease-in-out 0.3s;
 }
-
-
 .section-title p {
   margin: 0;
   margin: 0;
@@ -57,9 +55,6 @@ font-weight: bold;
   font-family: "Lexend Deca", sans-serif;
   color: var(--raven-black);
 }
-
-
-
 .map {
   background-color: var(--raven-white);
 } 
@@ -108,28 +103,6 @@ font-weight: bold;
 .gmap {
   filter: grayscale(0%) invert(0%) contrast(100%);
 }
-/* scrollbar custom */
-/* ::-webkit-scrollbar {
-  background: var(--color-white);
-  border-left: 1px solid var(--raven-black);
-} */
-/* Track */
-/* ::-webkit-scrollbar-track {
-  background: var(--raven-white);
-} */
-/* ::-webkit-scrollbar-corner {
-  background: var(--raven-white);
-} */
-/* Handle */
-/* ::-webkit-scrollbar-thumb {
-  background: #555;
-  border-radius: 8px; 
-} */
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: var(--raven-celeste); 
-} */
-
 .portfolio2{
   height: 50vh;
   display: -webkit-box;
@@ -156,7 +129,6 @@ font-weight: bold;
       height: 50vh;
   }
 }
-
 .btn-liquid {
 	display: inline-block;
 	position: relative;
@@ -170,13 +142,11 @@ font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-
 .btn-liquid .inner {
 	position: relative;
 	z-index: 2;
   color:var(--raven-white);
 }
-
 .btn-liquid canvas {
 	position: absolute;
 	top: -50px;
@@ -185,15 +155,12 @@ font-weight: bold;
 	left: -50px;
 	z-index: 1;
 }
-
 .btn-liquid span {
 color: var(--raven-white);
 }
 .portfolio-link{
   color: var(--raven-celeste);
 }
-
-
 /*--------------------------------------------------------------
 # servicios
 --------------------------------------------------------------*/
@@ -205,8 +172,6 @@ color: var(--raven-white);
   border-radius: 0px 100px 0px 100px;
   box-shadow: 14px 14px 9px -4px rgba(0, 0, 0, 0.24)
 }
-
-
 .servicios .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -219,36 +184,30 @@ color: var(--raven-white);
   margin-bottom: 20px;
   transition: 0.3s;
 }
-
 .servicios .icon-box .icon i {
   color: #151515;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
-
 .servicios .icon-box h1 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
-
 .servicios .icon-box h1 a {
   color: var(--raven-black);
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
-
 .servicios .icon-box h1 a:hover {
   color: var(--raven-celeste);
 }
-
 .servicios .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
   color: #444141;
 }
-
 .servicios .icon-box:hover {
   border-color: rgba(111, 109, 109, 0.953);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
@@ -261,24 +220,20 @@ color: var(--raven-white);
   padding-top: 20px;
   margin-bottom: 100px;
 }
-
 .features .icon-box {
   padding-left: 15px;
 }
-
 .features .icon-box h4 , .features .icon-box h3, .features .icon-box h2,.features .icon-box h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
   color: var(--raven-white);
 }
-
 .features .icon-box i {
   font-size: 30px;
   float: left;
   color: var(--raven-celeste);
 }
-
 .features .icon-box p {
   font-size: 15px;
   color: #444141;
@@ -289,7 +244,6 @@ color: var(--raven-white);
       margin-right: 60px;
   }
 }
-
 .features .image {
   background-image: url('../img/R3.B.png');
   background-position: center center;
@@ -297,7 +251,6 @@ color: var(--raven-white);
   background-size: cover;
   min-height: 400px;
 }
-
 .features .icon-box h4 , .features .icon-box h3,.features .icon-box h2,.features .icon-box h1 {
   font-size: 30px;
   font-weight: 700;
@@ -316,7 +269,6 @@ color: var(--raven-white);
   animation-delay: 0s;
   animation-iteration-count: 100;
 }
-
 .btn-service {
 	display: inline-block;
 	position: relative;
@@ -339,3 +291,24 @@ color: var(--raven-white);
 .btn-landing:hover{
   color: #343a40;
 }
+/* scrollbar custom */
+/* ::-webkit-scrollbar {
+  background: var(--color-white);
+  border-left: 1px solid var(--raven-black);
+} */
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: var(--raven-white);
+} */
+/* ::-webkit-scrollbar-corner {
+  background: var(--raven-white);
+} */
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 8px; 
+} */
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: var(--raven-celeste); 
+} */
