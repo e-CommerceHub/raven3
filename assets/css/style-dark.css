@@ -33,27 +33,27 @@ h6 {
   color: var(--raven-black) !important;
 }
 /* scrollbar custom */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   background: var(--color-black);
   border-left: 1px solid var(--raven-black);
-}
+} */
 /* Track */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: var(--raven-black);
 
 }
 ::-webkit-scrollbar-corner {
   background: var(--raven-black);
-}
+} */
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: #555; 
   border-radius: 8px;
-}
+} */
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: var(--raven-celeste) ; 
-}
+} */
 
 .servicios .icon-box {
   box-shadow: 14px 14px 9px -4px rgba(55, 226, 213, 0.24)

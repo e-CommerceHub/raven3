@@ -1,16 +1,16 @@
 const posts = [
     {
-      title: "Post Title 1",
-      content: "Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.",
-      subtitle:"post title 2 little longer",
-      image: "assets/img/blog/1.jpg",
-      date: "2016-03-05"
+      title: "Los Secretos para una Tienda en Línea Exitosa",
+      content: "En este post, exploraremos las claves para crear una tienda en línea exitosa que atraiga a tus clientes ideales y aumente tus ventas. Si estás pensando en lanzar una tienda virtual, sigue leyendo.",
+      subtitle:"Los Secretos para una Tienda en Línea Exitosa",
+      image: "../assets/img/blog/1.jpg",
+      date: "06 - Junio - 2024"
     },
     {
       title: "Post Title 2",
       content: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
       subtitle:"post title 2 little longer",
-      image: "assets/img/blog/2.jpg",
+      image: "../assets/img/blog/2.jpg",
       date: "2016-03-05"
     },
 

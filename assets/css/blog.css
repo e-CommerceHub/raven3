@@ -1,4 +1,19 @@
 
+:root{
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: var(--raven-celeste);
+  width: 0; /* Inicialmente, la barra está vacía */
+  z-index: 2147483647;
+  transition: width 0.3s ease; /* Agrega una transición suave al ancho */
+}
 .header-bg {
     background: url("../img/raven.avif");
     background-repeat: no-repeat;

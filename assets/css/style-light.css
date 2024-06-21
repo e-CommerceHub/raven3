@@ -109,26 +109,26 @@ font-weight: bold;
   filter: grayscale(0%) invert(0%) contrast(100%);
 }
 /* scrollbar custom */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   background: var(--color-white);
   border-left: 1px solid var(--raven-black);
-}
+} */
 /* Track */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: var(--raven-white);
-}
-::-webkit-scrollbar-corner {
+} */
+/* ::-webkit-scrollbar-corner {
   background: var(--raven-white);
-}
+} */
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: #555;
   border-radius: 8px; 
-}
+} */
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: var(--raven-celeste); 
-}
+} */
 
 .portfolio2{
   height: 50vh;
