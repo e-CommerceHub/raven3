@@ -1,6 +1,6 @@
 const header = [
     {
-      img_logo: "../assets/img/logo.png",
+      img_logo: "assets/img/logo.png",
       nav_title_1: "Nosotros",
       nav_title_2: "Servicios Digitales",
       nav_title_3: "Servicios Marketing",
