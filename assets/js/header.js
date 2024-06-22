@@ -1,6 +1,6 @@
 const header = [
     {
-      img_logo: "assets/img/logo.png",
+      img_logo: "../assets/img/logo.png",
       nav_title_1: "Nosotros",
       nav_title_2: "Servicios Digitales",
       nav_title_3: "Servicios Marketing",
@@ -18,7 +18,7 @@ const header = [
     const postElement = document.createElement("div");
     postElement.className = "container d-flex align-items-center justify-content-lg-between varela";
     postElement.innerHTML = `
-    <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="logo de raven3" class="img-fluid" width="100px" height="40px"></a>
+    <a href="index.html" class="logo me-auto me-lg-0"><img src="${header.img_logo}" alt="logo de raven3" class="img-fluid" width="100px" height="40px"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
