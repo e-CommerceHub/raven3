@@ -126,6 +126,7 @@
   </head>
 
   <body>
+    <div class="progress-bar"></div>
     <div class="wasap" style="animation-name: tada">
       <a
         href="https://api.whatsapp.com/send?l=es&amp;text=Hola%20Ravens!%20Quiero%20consultarles%20por%20un%20presupuesto&amp;phone=+5491134568899"
@@ -141,82 +142,7 @@
       class="fixed-top"
       style="background: rgba(0, 0, 0, 0.8)"
     >
-      <div
-        class="container d-flex align-items-center justify-content-lg-between varela"
-      >
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo me-auto me-lg-0"
-          ><img
-            src="assets/img/logo.png"
-            alt="logo de raven3"
-            class="img-fluid"
-            width="100px"
-            height="40px"
-        /></a>
-
-        <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li><a class="nav-link scrollto" href="index.html">Inicio</a></li>
-            <!-- <li>
-            <a class="nav-link scrollto" href="index.html#servicios">Servicios</a>
-          </li> -->
-
-            <li class="dropdown">
-              <a href="#"
-                ><span style="color: white">Servicios Web</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li>
-                  <!-- <i class="bx bx-chevron-right"></i> -->
-                  <a href="sitios-web.html" style="color: black"
-                    >Landing Pages</a
-                  >
-                </li>
-                <li>
-                  <a href="tienda-online.html" style="color: black"
-                    >Tienda Online
-                  </a>
-                </li>
-                <li>
-                  <a href="qr-code-page.html" style="color: black"
-                    >Códigos QR</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#"
-                ><span style="color: white">Servicios Marketing</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li>
-                  <!-- <i class="bx bx-chevron-right"></i> -->
-                  <a href="redes.html" style="color: black">Redes</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a
-                href="#"
-                onclick="theme_toggle(); return false;"
-                title="Change Theme"
-                >&#127763;</a
-              >
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle" id="burger"></i>
-        </nav>
-        <a
-          href="https://api.whatsapp.com/send?l=es&amp;text=Hola%20Ravens!%20Quiero%20consultarles%20por%20un%20presupuesto%20[Pagina%20Portfolio]&amp;phone=+5491134568899"
-          class="get-started-btn scrollto"
-          >Contacto</a
-        >
-      </div>
+      <div id="header-info"></div>
     </header>
     <!-- End Header -->
 
@@ -250,85 +176,22 @@
               <div class="page-head-blog">
                 <div class="single-blog-page">
                   <!-- search option start -->
-                  <form action="#">
+                  <!-- <form action="#">
                     <div class="search-option">
                       <input type="text" placeholder="Search..." />
                       <button class="button" type="submit">
                         <i class="bi bi-search"></i>
                       </button>
                     </div>
-                  </form>
+                  </form> -->
                   <!-- search option end -->
                 </div>
                 <div class="single-blog-page">
                   <!-- recent start -->
                   <div class="left-blog">
-                    <h4>recent post</h4>
+                    <h4>Artículos destacados</h4>
                     <div class="recent-post">
-                      <!-- start single post -->
-                      <div class="recent-single-post">
-                        <div class="post-img">
-                          <a href="#">
-                            <img src="assets/img/blog/1.jpg" alt="" />
-                          </a>
-                        </div>
-                        <div class="pst-content">
-                          <p>
-                            <a href="#">
-                              Redug Lerse dolor sit amet consect adipis elit.</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                      <!-- End single post -->
-                      <!-- start single post -->
-                      <div class="recent-single-post">
-                        <div class="post-img">
-                          <a href="#">
-                            <img src="assets/img/blog/2.jpg" alt="" />
-                          </a>
-                        </div>
-                        <div class="pst-content">
-                          <p>
-                            <a href="#">
-                              Redug Lerse dolor sit amet consect adipis elit.</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                      <!-- End single post -->
-                      <!-- start single post -->
-                      <div class="recent-single-post">
-                        <div class="post-img">
-                          <a href="#">
-                            <img src="assets/img/blog/3.jpg" alt="" />
-                          </a>
-                        </div>
-                        <div class="pst-content">
-                          <p>
-                            <a href="#">
-                              Redug Lerse dolor sit amet consect adipis elit.</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                      <!-- End single post -->
-                      <!-- start single post -->
-                      <div class="recent-single-post">
-                        <div class="post-img">
-                          <a href="#">
-                            <img src="assets/img/blog/4.jpg" alt="" />
-                          </a>
-                        </div>
-                        <div class="pst-content">
-                          <p>
-                            <a href="#">
-                              Redug Lerse dolor sit amet consect adipis elit.</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                      <!-- End single post -->
+                      <div id="left-blog-posts"></div>
                     </div>
                   </div>
                   <!-- recent end -->
@@ -728,5 +591,8 @@
         <!-- Template Main JS File -->
         <script src="assets/js/theme.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/progress-bar.js"></script>
+        <!-- <script src="assets/js/posts.js"></script> -->
+        <script src="assets/js/header.js"></script>
   </body>
 </html>
