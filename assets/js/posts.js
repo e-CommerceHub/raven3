@@ -22,27 +22,26 @@ const posts = [
       image: "assets/img/blog/3.jpg",
       date: "2016-03-05",
       href:"blog-details.html"
-    },
-
+    }
   ];
 
   const blogPostsContainer = document.getElementById("blog-posts");
   if(blogPostsContainer){
     posts.forEach((post) => {
       const postElement = document.createElement("div");
-      postElement.className = "col-lg-4 col-md-4 col-xs-12";
+      postElement.className = "col-lg-4 col-md-4 col-xs-12 mx-1";
+      postElement.id="PostCard";
       postElement.innerHTML = `
       <div class="single-blog mx-3">
-        <div class="single-blog-img">
-          <a href="blog-details.html"><img src="${post.image}" alt="" /></a>
+        <div class="single-blog-img p-3">
+          <a href="${post.href}"><img src="${post.image}" alt="" /></a>
         </div>
         <div class="blog-meta">
-          <span class="date-type"><i class="bi bi-calendar"></i>${post.date}</span>
+          <a href="${post.href}"><span class="date-type"><i class="bi bi-calendar"></i>${post.date}</span> </a>
         </div>
         <div class="blog-text">
           <h1 style="font-size: 18px;"><a href="#">${post.title}</a></h1>
         </div>
-        <span><a href="${post.href}" class="ready-btn">Read more</a></span>
       </div>
       `;
       blogPostsContainer.appendChild(postElement);

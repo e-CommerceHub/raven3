@@ -180,8 +180,12 @@ img {
   }
   
   .single-blog .ready-btn:hover {
-    border: 1px solid #3EC1D5;
+    border: 1px solid var(--raven-celeste);
     color: #fff;
+  }
+
+  .single-blog:hover{
+    transform: scale(1);
   }
   
   /*--------------------------------------------------------------
@@ -587,4 +591,21 @@ img {
   }
   .single-blog .single-blog-img img {
     border-radius: 6px;
+    object-fit: cover;
+    width: 100%;
+    height: 148px;
+    transition: all 1s cubic-bezier(.19,1,.22,1)!important;
+  }
+  .single-blog .single-blog-img img:hover{
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  #PostCard:hover{
+    background-color: #f2f9ff;
+    border-radius: 6px;
+  }
+
+  #PostCard:hover .single-blog-img img{
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
