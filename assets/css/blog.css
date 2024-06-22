@@ -195,27 +195,9 @@ img {
     margin-bottom: 40px;
   }
   
-  .search-option input {
-    border: medium none;
-    padding-left: 10px;
-    width: 80%;
-  }
   
   .search-option {
-    border: 1px solid #ccc;
-    height: 42px;
     margin-bottom: 30px;
-  }
-  
-  .search-option button {
-    background: transparent none repeat scroll 0 0;
-    border: medium none;
-    font-size: 20px;
-    padding: 8px 23px;
-  }
-  
-  .search-option button:hover {
-    color: #3ec1d5;
   }
   
   .left-blog h4 {
@@ -602,4 +584,7 @@ img {
     border-top: 1px solid #e5e5e5;
     margin: 0;
     padding-top: 30px;
+  }
+  .single-blog .single-blog-img img {
+    border-radius: 6px;
   }
