@@ -15,7 +15,7 @@
   transition: width 0.3s ease; /* Agrega una transición suave al ancho */
 }
 .header-bg {
-    background: url("../img/raven.avif");
+    background: url("../img/raven6.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
