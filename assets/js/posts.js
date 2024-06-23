@@ -30,7 +30,7 @@ const posts = [
       title: "Los Secretos para una Tienda en Línea Exitosa",
       content: "En este post, exploraremos las claves para crear una tienda en línea exitosa que atraiga a tus clientes ideales y aumente tus ventas. Si estás pensando en lanzar una tienda virtual, sigue leyendo.",
       subtitle:"Los Secretos para una Tienda en Línea Exitosa",
-      image: "assets/img/blog/1.jpg",
+      image: "assets/img/blog/4.jpg",
       date: "2016-03-05",
       href:"blog-details.html"
     },
@@ -38,7 +38,7 @@ const posts = [
       title: "Qué son las palabras clave y cómo usarlas en tu tienda online",
       content: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
       subtitle:"post title 2 little longer",
-      image: "assets/img/blog/2.jpg",
+      image: "assets/img/blog/5.jpg",
       date: "2016-03-05",
       href:"blog-details.html"
     },
@@ -46,7 +46,7 @@ const posts = [
       title: "¿Cómo hacer publicidad en redes sociales? 10 claves para maximizar tus resultados",
       content: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
       subtitle:"post title 2 little longer",
-      image: "assets/img/blog/3.jpg",
+      image: "assets/img/blog/6.jpg",
       date: "2016-03-05",
       href:"blog-details.html"
     }

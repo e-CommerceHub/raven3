@@ -22,7 +22,7 @@ const header = [
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li><a class="nav-link scrollto" href="#features">${header.nav_title_1}</a></li>
+            <li><a class="nav-link scrollto" href="#nosotros">${header.nav_title_1}</a></li>
             
             <li class="dropdown">
               <a href="#"

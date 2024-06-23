@@ -213,45 +213,45 @@ color: var(--raven-white);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 /*--------------------------------------------------------------
-# Features
+# nosotros
 --------------------------------------------------------------*/
-.features {
+.nosotros {
   margin-top: 100px;
   padding-top: 20px;
   margin-bottom: 100px;
 }
-.features .icon-box {
+.nosotros .icon-box {
   padding-left: 15px;
 }
-.features .icon-box h4 , .features .icon-box h3, .features .icon-box h2,.features .icon-box h1 {
+.nosotros .icon-box h4 , .nosotros .icon-box h3, .nosotros .icon-box h2,.nosotros .icon-box h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
   color: var(--raven-white);
 }
-.features .icon-box i {
+.nosotros .icon-box i {
   font-size: 30px;
   float: left;
   color: var(--raven-celeste);
 }
-.features .icon-box p {
+.nosotros .icon-box p {
   font-size: 15px;
   color: #444141;
   margin-left: 60px;
 }
 @media only screen and (max-width: 412px) {
-  .features .icon-box p {
+  .nosotros .icon-box p {
       margin-right: 60px;
   }
 }
-.features .image {
+.nosotros .image {
   background-image: url('../img/R3.B.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
 }
-.features .icon-box h4 , .features .icon-box h3,.features .icon-box h2,.features .icon-box h1 {
+.nosotros .icon-box h4 , .nosotros .icon-box h3,.nosotros .icon-box h2,.nosotros .icon-box h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 5px 60px 10px 60px;
