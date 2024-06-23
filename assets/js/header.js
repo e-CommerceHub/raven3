@@ -8,7 +8,8 @@ const header = [
       service_d_1:"Sitios Web",
       service_d_2:"Tiendas Online",
       service_m_1:"Contenido para Redes",
-      btn_contacto: "Contacto"
+      btn_contacto: "Contacto",
+      logo_href:"index.html"
     },
 
   ];
@@ -18,11 +19,11 @@ const header = [
     const postElement = document.createElement("div");
     postElement.className = "container d-flex align-items-center justify-content-lg-between varela";
     postElement.innerHTML = `
-    <a href="index.html" class="logo me-auto me-lg-0"><img src="${header.img_logo}" alt="logo de raven3" class="img-fluid" width="100px" height="40px"></a>
+    <a href="${header.logo_href}" class="logo me-auto me-lg-0"><img src="${header.img_logo}" alt="logo de raven3" class="img-fluid" width="100px" height="40px"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li><a class="nav-link scrollto" href="#nosotros">${header.nav_title_1}</a></li>
+            <li><a class="nav-link scrollto" href="${header.logo_href}#nosotros">${header.nav_title_1}</a></li>
             
             <li class="dropdown">
               <a href="#"
