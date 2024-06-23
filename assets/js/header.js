@@ -5,7 +5,7 @@ const header = [
       nav_title_2: "Servicios Digitales",
       nav_title_3: "Servicios Marketing",
       nav_title_4: "Portfolio",
-      service_d_1:"Sitios Web",
+      service_d_1:"Sitio Web",
       service_d_2:"Tiendas Online",
       service_m_1:"Contenido para Redes",
       btn_contacto: "Contacto",
@@ -32,7 +32,7 @@ const header = [
               ></a>
               <ul>
                 <li>
-                  <a href="sitios-web.html" style="color: black;">${header.service_d_1}</a>
+                  <a href="sitio-web.html" style="color: black;">${header.service_d_1}</a>
                 </li>
                 <li>
                   <a href="tienda-online.html" style="color: black;">${header.service_d_2} </a>
