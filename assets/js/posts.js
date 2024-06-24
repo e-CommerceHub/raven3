@@ -43,12 +43,12 @@ const posts = [
       href:"blog-details.html"
     },
     {
-      title: "¿Cómo hacer publicidad en redes sociales? 10 claves para maximizar tus resultados",
+      title: "¿E-Commerce: ¿Cómo crear una tienda online?",
       content: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
       subtitle:"post title 2 little longer",
-      image: "assets/img/blog/6.jpg",
+      image: "assets/img/blog/e-commerce-como-crear-una-tienda-online-en-2020.jpg",
       date: "2016-03-05",
-      href:"blog-details.html"
+      href:"como-crear-una-tienda-online.html"
     }
   ];
 
@@ -63,12 +63,12 @@ const posts = [
         <div class="single-blog-img p-3">
           <a href="${post.href}"><img src="${post.image}" alt="" /></a>
         </div>
-        <div class="blog-meta">
-          <a href="${post.href}"><span class="date-type"><i class="bi bi-calendar"></i>${post.date}</span> </a>
-        </div>
         <div class="blog-text">
-          <h1 style="font-size: 18px;"><a href="#">${post.title}</a></h1>
+          <h1 style="font-size: 18px;"><a href="${post.href}">${post.title}</a></h1>
         </div>
+        <span>
+          <a href="${post.href}" class="ready-btn">Leer más...</a>
+        </span>
       </div>
       `;
       blogPostsContainer.appendChild(postElement);
@@ -86,12 +86,12 @@ const posts = [
         <div class="single-blog-img p-3">
           <a href="${post.href}"><img src="${post.image}" alt="" /></a>
         </div>
-        <div class="blog-meta">
-          <a href="${post.href}"><span class="date-type"><i class="bi bi-calendar"></i>${post.date}</span> </a>
-        </div>
         <div class="blog-text">
-          <h1 style="font-size: 18px;"><a href="#">${post.title}</a></h1>
+          <h1 style="font-size: 18px;"><a href="${post.href}">${post.title}</a></h1>
         </div>
+        <span>
+          <a href="${post.href}" class="ready-btn">Leer más...</a>
+        </span>
       </div>
       `;
       blogPostsContainer2.appendChild(postElement);
