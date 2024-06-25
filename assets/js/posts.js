@@ -38,7 +38,7 @@ const posts = [
   if(blogPostsContainer){
     posts.forEach((post) => {
       const postElement = document.createElement("div");
-      postElement.className = "col-lg-4 col-md-4 col-xs-12 mx-1";
+      postElement.className = "col-lg-4 col-md-4 mx-1";
       postElement.id="PostCard";
       postElement.innerHTML = `
       <div class="single-blog mx-3">
@@ -61,7 +61,7 @@ const posts = [
   if(blogPostsContainer2){
     posts2.forEach((post) => {
       const postElement = document.createElement("div");
-      postElement.className = "col-lg-4 col-md-4 col-xs-12 mx-1";
+      postElement.className = "col-lg-4 col-md-4 mx-1";
       postElement.id="PostCard";
       postElement.innerHTML = `
       <div class="single-blog mx-3">
