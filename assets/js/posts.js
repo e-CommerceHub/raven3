@@ -18,9 +18,9 @@ const posts = [
 
   const posts2 = [
     {
-      title: "Los Secretos para una Tienda en Línea Exitosa",
-      image: "../assets/img/blog/4.jpg",
-      href:"blog-details.html"
+      title: "Claves del diseñp web profesional",
+      image: "../assets/img/blog/claves-del-diseno-web-profesional.jpg",
+      href:"../assets/claves-del-diseno-web-profesional.html"
     },
     {
       title: "Como Promocionar tu empresa en las fiestas",
