@@ -24,7 +24,7 @@ const posts = [
     },
     {
       title: "Como Promocionar tu empresa en las fiestas",
-      image: "../assets/img/blog/5.jpg",
+      image: "../assets/img/blog/como-promocionar-tu-empresa-en-las-fiestas.jpg",
       href:"como-promocionar-tu-empresa-en-las-fiestas.html"
     },
     {
