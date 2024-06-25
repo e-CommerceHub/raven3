@@ -29,7 +29,7 @@ const posts = [
     },
     {
       title: "¿E-Commerce: ¿Cómo crear una tienda online?",
-      image: "../assets/img/blog/e-commerce-como-crear-una-tienda-online-en-2020.jpg",
+      image: "../assets/img/blog/e-commerce-como-crear-una-tienda-online.jpeg",
       href:"como-crear-una-tienda-online.html"
     }
   ];
