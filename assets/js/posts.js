@@ -20,7 +20,7 @@ const posts = [
     {
       title: "Claves del diseñp web profesional",
       image: "../assets/img/blog/claves-del-diseno-web-profesional.jpg",
-      href:"../assets/claves-del-diseno-web-profesional.html"
+      href:"claves-del-diseno-web-profesional.html"
     },
     {
       title: "Como Promocionar tu empresa en las fiestas",
