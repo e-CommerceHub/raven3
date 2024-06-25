@@ -51,6 +51,7 @@ const posts = [
         <span>
           <a href="${post.href}" class="ready-btn">Leer más...</a>
         </span>
+        <p>&nbsp;</p>
       </div>
       `;
       blogPostsContainer.appendChild(postElement);
@@ -74,6 +75,7 @@ const posts = [
         <span>
           <a href="${post.href}" class="ready-btn">Leer más...</a>
         </span>
+         <p>&nbsp;</p>
       </div>
       `;
       blogPostsContainer2.appendChild(postElement);
