@@ -42,70 +42,70 @@
     />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="../assets/img/favicon.ico" rel="icon" />
 
     <!-- Vendor CSS Files -->
     <link
       rel="preload"
-      href="assets/vendor/aos/aos.css"
+      href="../assets/vendor/aos/aos.css"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript
-      ><link rel="stylesheet" href="assets/vendor/aos/aos.css"
+      ><link rel="stylesheet" href="../assets/vendor/aos/aos.css"
     /></noscript>
 
     <link
       rel="preload"
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript
-      ><link
-        rel="stylesheet"
-        href="assets/vendor/bootstrap/css/bootstrap.min.css"
-    /></noscript>
-
-    <link
-      rel="preload"
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript
       ><link
         rel="stylesheet"
-        href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+        href="../assets/vendor/bootstrap/css/bootstrap.min.css"
     /></noscript>
 
     <link
       rel="preload"
-      href="assets/vendor/boxicons/css/boxicons.min.css"
+      href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript
       ><link
         rel="stylesheet"
-        href="assets/vendor/boxicons/css/boxicons.min.css"
+        href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
     /></noscript>
 
     <link
       rel="preload"
-      href="assets/vendor/glightbox/css/glightbox.min.css"
+      href="../assets/vendor/boxicons/css/boxicons.min.css"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript
       ><link
         rel="stylesheet"
-        href="assets/vendor/glightbox/css/glightbox.min.css"
+        href="../assets/vendor/boxicons/css/boxicons.min.css"
     /></noscript>
 
     <link
       rel="preload"
-      href="assets/vendor/swiper/swiper-bundle.min.css"
+      href="../assets/vendor/glightbox/css/glightbox.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="../assets/vendor/glightbox/css/glightbox.min.css"
+    /></noscript>
+
+    <link
+      rel="preload"
+      href="../assets/vendor/swiper/swiper-bundle.min.css"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
@@ -117,10 +117,10 @@
     />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/style-light.css" id="style-light" rel="stylesheet" />
-    <link href="assets/css/style-dark.css" id="style-dark" rel="stylesheet" />
-    <link href="assets/css/blog.css" rel="stylesheet" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/style-light.css" id="style-light" rel="stylesheet" />
+    <link href="../assets/css/style-dark.css" id="style-dark" rel="stylesheet" />
+    <link href="../assets/css/blog.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -130,18 +130,69 @@
         href="https://api.whatsapp.com/send?l=es&amp;text=Hola%20Ravens!%20Quiero%20consultarles%20por%20un%20presupuesto&amp;phone=+5491134568899"
         target="_blank"
         aria-label="link to whatsapp"
-        ><img src="assets/img/svg/logo-wapp-01.svg" alt="raven whatsapp"
+        ><img src="../assets/img/svg/logo-wapp-01.svg" alt="raven whatsapp"
       /></a>
     </div>
 
     <!-- ======= Header ======= -->
     <header
-      id="header"
-      class="fixed-top"
-      style="background: rgba(0, 0, 0, 0.8)"
-    >
-      <div id="header-info"></div>
-    </header>
+    id="header"
+    class="fixed-top"
+    style="background: rgba(0, 0, 0, 0.8)"
+  >
+    <div class="container d-flex align-items-center justify-content-lg-between varela">
+
+      <a href="../index.html" class="logo me-auto me-lg-0"><img src="../assets/img/logo.png" alt="logo de raven3" class="img-fluid" width="100px" height="40px"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="../index.html#nosotros">Nosotros</a></li>
+          
+          <li class="dropdown">
+            <a href="#"
+              ><span id="service">Servicios Digitales</span>
+              <i class="bi bi-chevron-down dropdown-indicator"></i
+            ></a>
+            <ul>
+              <li>
+                <a href="../pagina-web.html" style="color: black;">Pagina Web</a>
+              </li>
+              <li>
+                <a href="../tienda-online.html" style="color: black;">Tiendas Online</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#"
+              ><span id="service">Servicios Marketing</span>
+              <i class="bi bi-chevron-down dropdown-indicator"></i
+            ></a>
+            <ul>
+              <li>
+                <a href="../redes.html" style="color: black;">Contenido para Redes</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="../portfolio.html">Portfolio</a>
+          </li>
+         
+          <li>
+            <a
+              href="#projectos"
+              class="nav-link scrollto"
+              onclick="theme_toggle(); return false;"
+              title="Change Theme"
+              >&#127763;</a
+            >
+          </li>
+          </ul>
+        <i class="bi bi-list mobile-nav-toggle" id="burger" style="font-size: 30px !important;"></i>
+      </nav>
+
+      <a href="#contact" class="get-started-btn scrollto">Contacto</a>
+    </div>
+  </header>
     <!-- End Header -->
 
     <main id="main">
@@ -300,7 +351,7 @@
                   <!-- single-blog start -->
                   <article class="blog-post-wrapper">
                     <div class="post-thumbnail">
-                      <img src="assets/img/blog/e-commerce-como-crear-una-tienda-online-en-2020.jpg" title="E-Commerce: ¿Cómo crear una tienda online en 2020? " alt="E-Commerce: ¿Cómo crear una tienda online en 2020? " style="margin:25px 0 20px; border-radius: 1%;">
+                      <img src="../assets/img/blog/e-commerce-como-crear-una-tienda-online-en-2020.jpg" title="E-Commerce: ¿Cómo crear una tienda online en 2020? " alt="E-Commerce: ¿Cómo crear una tienda online en 2020? " style="margin:25px 0 20px; border-radius: 1%;">
                     </div>
                     <div class="post-information">
                       
@@ -311,14 +362,14 @@
                         <h3 style="text-align: justify;font-size: 15px;">En pleno aislamiento, los clientes se vieron obligados a utilizar Internet para poder acceder a sus compras, mientras que los comerciantes debieron adaptarse a este nuevo método para poder vender. Esto dio como resultado que más del 25% de la población mundial comprara productos en línea, aumentando las ganancias por millones.</h3>
                         <p>&nbsp;</p>
                         <h3 style="text-align: justify;font-size: 15px;">En este nuevo escenario, las personas exigen comprar lo que desean con un solo click y. por eso, quien no tenga una tienda online quedará afuera del mercado. En este artículo te explicamos porqué es tan importante <em>tener un e-commerce</em>, cuáles son las <em>ventajas del e-commerce</em> y <em>cómo podrás crear un e-commerce</em> de forma fácil y rápida.</h3>
-                        <p>&nbsp;</p>
-                        <h2 id="heading-1">¿Qué es el e-commerce o comercio electrónico?</h2>
+                        <p id="heading-1">&nbsp;</p>
+                        <h2 >¿Qué es el e-commerce o comercio electrónico?</h2>
                         <p>&nbsp;</p>
                         <h3 style="text-align: justify;font-size: 15px;">El <strong>e-commerce</strong>, también conocido como comercio electrónico, es el proceso de compra y venta de bienes y servicios en línea. Se trata de un modelo de negocio que implica que las transacciones se realicen a través de Internet por medio de una plataforma virtual.</h3>
                         <p>&nbsp;</p>
                         <h3 style="text-align: justify;font-size: 15px;">Como cualquier tecnología digital, el comercio electrónico avanzó rápidamente a lo largo del tiempo. A partir de la década de 1990, el ecommerce comenzó a apuntar a un mercado de consumo llegando a extenderse entre unos pocos comercios. Hoy en día, en cambio, los pequeños comerciantes, los emprendedores y hasta las grandes compañías cuentan con tiendas en línea, lo que les genera muchísimos beneficios.</h3>
-                        <p>&nbsp;</p>
-                        <h2>¿Para qué me sirve una tienda online?</h2>
+                        <p id="heading-2">&nbsp;</p>
+                        <h2 >¿Para qué me sirve una tienda online?</h2>
                         <p>&nbsp;</p>
                         <h3 style="text-align: justify;font-size: 15px;">Los negocios que venden sus productos online simplifican los procesos y acceden a ciertos beneficios que los negocios físicos no. La realidad es que el ecommerce se traduce en puras ganancias: es fácil de usar, es barato, es cómodo y genera mucha fidelidad.</h3>
                         <p>&nbsp;</p>
@@ -335,16 +386,16 @@
                         <h3 style="text-align: justify; padding-left: 40px;font-size: 15px;"><strong> - Las tiendas online le garantizan al cliente acceder al mejor precio del producto o servicio. </strong> El e-commerce hace que a la hora de comprar, el cliente pueda comparar y seleccionar la mejor opción, lo que significa que cada vez que hayas hecho una venta, tendrás mayor competitividad.</h3>
                         <p>&nbsp;</p>
                         <h3 style="text-align: justify; padding-left: 40px;font-size: 15px;"><strong> - El e-commerce hace que seas más productivo. </strong> Una vez que todos los procesos de compra y venta están automatizados, el tiempo de atención que requieren las tiendas online se reduce sustancialmente. Esto hace que puedas dedicar más tiempo a desarrollar tu marca, tu estrategia de marketing o a mejorar tu producto o servicio.</h3>
+                        <p id="heading-3">&nbsp;</p>
+                        <h2 >Una guía paso a paso para crear una tienda online</h2>
                         <p>&nbsp;</p>
-                        <h2>Una guía paso a paso para crear una tienda online</h2>
-                        <p>&nbsp;</p>
-                        <h3 style="text-align: justify;font-size: 15px;">Si querés aprovechar todos estos beneficios, deberías comenzar ahora por crear tu tienda online. Ya sea que ya tengas un negocio físico y estés buscando expandirte virtualmente o que quieras dar los primeros pasos en el mundo del ecommerce con tu primera tienda online. <br> <br> Desde acá te acompañamos para que puedas cumplir tu deseo. Armar un e-commerce nunca fue tan fácil como con <strong>tomasweb®</strong>, que te ofrece múltiples opciones acordes a tu medida. <br> <br> Nuestros diseños de <a href="https://tomasweb.com.ar/sitio-web-e-commerce.html">inicio</a> y <a href="https://tomasweb.com.ar/sitio-web-e-commerce-medium.html">full</a>, tienen un formato atractivo, permiten que su manejo sea rápido y son muy amigables con los usuarios principiantes. <br> <br> Comenzá a <strong>desarrollar tu e-commerce</strong> para aumentar tus ingresos, posicionar tu marca y generar grandes ganancias a largo plazo.</h3>
-                        <p>&nbsp;</p>
-                        <h2>¿Qué estás esperando para construir tu increíble tienda online?</h2>
-                        <br>
-                        <div style="background-color: var(--raven-celeste); padding: 15px; border-radius: 15px">
+                        <h3 style="text-align: justify;font-size: 15px;">Si querés aprovechar todos estos beneficios, deberías comenzar ahora por crear tu tienda online. Ya sea que ya tengas un negocio físico y estés buscando expandirte virtualmente o que quieras dar los primeros pasos en el mundo del ecommerce con tu primera tienda online. <br> <br> Desde acá te acompañamos para que puedas cumplir tu deseo. Armar un e-commerce nunca fue tan fácil como con <strong>tomasweb®</strong>, que te ofrece múltiples opciones acordes a tu medida. <br> <br> Nuestros diseños de <a href="#sitio-web-e-commerce.html">inicio</a> y <a href="#/sitio-web-e-commerce-medium.html">full</a>, tienen un formato atractivo, permiten que su manejo sea rápido y son muy amigables con los usuarios principiantes. <br> <br> Comenzá a <strong>desarrollar tu e-commerce</strong> para aumentar tus ingresos, posicionar tu marca y generar grandes ganancias a largo plazo.</h3>
+                        <p id="heading-4">&nbsp;</p>
+                        <h2 >¿Qué estás esperando para construir tu increíble tienda online?</h2>
+                        <br id="#post-relateds">
+                        <div style="background-color: var(--raven-celeste); padding: 15px; border-radius: 15px" >
                           <h1 style="text-align: center; color: #ffffff">              
-                              <a style="color: #ffffff" href="https://tomasweb.com.ar/llamada.html">
+                              <a style="color: #ffffff" href="https://calendly.com/raven3-asesoramiento">
                                   Podemos ayudarte, solicitá una llamada de uno 
                                   de nuestros especialistas
                                 </a>
@@ -431,15 +482,15 @@
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="pagina-web.html">Pagina Web</a>
+                  <a href="../pagina-web.html">Pagina Web</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="tienda-online.html">Tiendas Online</a>
+                  <a href="../tienda-online.html">Tiendas Online</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="redes.html">Contenido<br> para Redes</a>
+                  <a href="../redes.html">Contenido<br> para Redes</a>
                 </li>
               </ul>
             </div>
@@ -450,12 +501,12 @@
       <div class="container" id="terminos">
         <div class="credits">
           <a
-            href="terminos-de-contratacion.html"
+            href="../terminos-de-contratacion.html"
             title="Terminos de contratacion"
             >Términos de Contratación</a
           >
           <span>|</span>
-          <a href="politicas-de-privacidad.html" title="Políticas de privacidad"
+          <a href="../politicas-de-privacidad.html" title="Políticas de privacidad"
             >Políticas de privacidad</a
           >
         </div>
@@ -473,18 +524,18 @@
     ></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
     <!-- Template Main JS File -->
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/progress-bar.js"></script>
-    <!-- <script src="assets/js/posts.js"></script> -->
-    <script src="assets/js/header.js"></script>
-    <script src="assets/js/posts.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/progress-bar.js"></script>
+    <!-- <script src="../assets/js/posts.js"></script> -->
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/posts.js"></script>
   </body>
 </html>

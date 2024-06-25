@@ -67,7 +67,7 @@ const header = [
           <i class="bi bi-list mobile-nav-toggle" id="burger" style="font-size: 30px !important;"></i>
         </nav>
 
-        <a href="#contact" class="get-started-btn scrollto">Contacto</a>
+        <a href="#contact" class="get-started-btn scrollto">${header.btn_contacto}</a>
     `;
     headerContainer.appendChild(postElement);
   });
