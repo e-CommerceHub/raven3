@@ -18,7 +18,7 @@ const posts = [
 
   const posts2 = [
     {
-      title: "Claves del diseñp web profesional",
+      title: "Claves del diseño web profesional",
       image: "../assets/img/blog/claves-del-diseno-web-profesional.jpg",
       href:"claves-del-diseno-web-profesional.html"
     },
