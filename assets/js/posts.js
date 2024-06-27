@@ -1,8 +1,8 @@
 const posts = [
     {
-      title: "Los Secretos para una Tienda en Línea Exitosa",
-      image: "../assets/img/blog/1.jpg",
-      href:"blog-details.html"
+      title: "¿Cómo ganar nuevos clientes a través del SEO?",
+      image: "../assets/img/blog/como-ganar-nuevos-clientes-a-traves-del-seo.jpeg",
+      href:"como-ganar-nuevos-clientes-a-traves-del-seo.html"
     },
     {
       title: "Qué son las palabras clave y cómo usarlas en tu tienda online",
