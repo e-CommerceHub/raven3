@@ -1,19 +1,19 @@
 const posts = [
     {
       title: "¿Cómo ganar nuevos clientes a través del SEO?",
-      image: "../assets/img/blog/como-ganar-nuevos-clientes-a-traves-del-seo.jpg",
+      image_url: "../assets/img/blog/como-ganar-nuevos-clientes-a-traves-del-seo.jpg",
       href:"como-ganar-nuevos-clientes-a-traves-del-seo.html",
       alt:"como ganar nuevos clientes a traves del seo"
     },
     {
       title: "Qué son las palabras clave y cómo usarlas en tu tienda online",
-      image: "../assets/img/blog/2.jpg",
+      image_url: "../assets/img/blog/2.jpg",
       href:"blog-details.html",
       alt:"que son las palabras clave y como usarlas en tu tienda online"
     },
     {
       title: "¿Cómo hacer publicidad en redes sociales? 10 claves para maximizar tus resultados",
-      image: "../assets/img/blog/3.jpg",
+      image_url: "../assets/img/blog/3.jpg",
       href:"blog-details.html",
       alt:"como hacer publicidad en redes sociales 10 claves para maximizar tus resultados"
     }
@@ -22,19 +22,19 @@ const posts = [
   const posts2 = [
     {
       title: "Claves del diseño web profesional",
-      image: "../assets/img/blog/claves-del-diseno-web-profesional.jpg",
+      image_url: "../assets/img/blog/claves-del-diseno-web-profesional.jpg",
       href:"claves-del-diseno-web-profesional.html",
       alt:"claves del disenio web profesional"
     },
     {
       title: "Como Promocionar tu empresa en las fiestas",
-      image: "../assets/img/blog/como-promocionar-tu-empresa-en-las-fiestas.jpeg",
+      image_url: "../assets/img/blog/como-promocionar-tu-empresa-en-las-fiestas.jpeg",
       href:"como-promocionar-tu-empresa-en-las-fiestas.html",
       alt:"como promocionar tu empresa en la fiestas"
     },
     {
       title: "¿E-Commerce: ¿Cómo crear una tienda online?",
-      image: "../assets/img/blog/e-commerce-como-crear-una-tienda-online.jpeg",
+      image_url: "../assets/img/blog/e-commerce-como-crear-una-tienda-online.jpeg",
       href:"como-crear-una-tiendas-online.html",
       alt:"como crear una tienda online"
     }
@@ -49,7 +49,7 @@ const posts = [
       postElement.innerHTML = `
       <div class="single-blog mx-3">
         <div class="single-blog-img p-3">
-          <a href="${post.href}"><img src="${post.image}" alt="${post.alt}" /></a>
+          <a href="${post.href}"><img src="${post.image_url}" alt="${post.alt}" /></a>
         </div>
         <div class="blog-text">
           <h1 style="font-size: 18px;"><a href="${post.href}">${post.title}</a></h1>
@@ -73,7 +73,7 @@ const posts = [
       postElement.innerHTML = `
       <div class="single-blog mx-3">
         <div class="single-blog-img p-3">
-          <a href="${post.href}"><img src="${post.image}" alt="" /></a>
+          <a href="${post.href}"><img src="${post.image_url}" alt="${post.alt}" /></a>
         </div>
         <div class="blog-text">
           <h1 style="font-size: 18px;"><a href="${post.href}">${post.title}</a></h1>
