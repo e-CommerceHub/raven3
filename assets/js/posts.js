@@ -35,7 +35,7 @@ const posts = [
     {
       title: "¿E-Commerce: ¿Cómo crear una tienda online?",
       image_url: "../assets/img/blog/e-commerce-como-crear-una-tienda-online.jpeg",
-      href:"como-crear-una-tiendas-online.html",
+      href:"como-crear-una-tienda-online.html",
       alt:"como crear una tienda online"
     }
   ];
