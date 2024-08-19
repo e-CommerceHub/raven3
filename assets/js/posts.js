@@ -6,10 +6,10 @@ const posts = [
       alt:"como ganar nuevos clientes a traves del seo"
     },
     {
-      title: "Qué son las palabras clave y cómo usarlas en tu tienda online",
-      image_url: "../assets/img/blog/2.jpg",
-      href:"blog-details.html",
-      alt:"que son las palabras clave y como usarlas en tu tienda online"
+      title: "Qué son las palabras clave y cómo usarlas",
+      image_url: "../assets/img/blog/que-son-las-palabras-clave-y-como-usarlas.jpg",
+      href:"que-son-las-palabras-clave-y-como-usarlas.html",
+      alt:"que son las palabras clave y como usarlas"
     },
     {
       title: "¿Cómo hacer publicidad en redes sociales? 10 claves para maximizar tus resultados",
