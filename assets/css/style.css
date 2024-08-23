@@ -1195,3 +1195,9 @@ section {
   z-index: 2147483647;
   transition: width 0.3s ease; /* Agrega una transición suave al ancho */
 }
+.call{
+  border:  1px solid black;
+  border-radius: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
