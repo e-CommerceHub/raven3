@@ -1198,6 +1198,5 @@ section {
 .call{
   border:  1px solid black;
   border-radius: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 25px 25px 25px;
 }
