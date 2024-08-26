@@ -1,4 +1,9 @@
-@import url('colors.css');
+:root{
+  --raven-celeste: #37e2d5;
+  --raven-white: #ffffff;
+  --raven-black: #000000;
+  --raven-grey: #444444;
+}
 a {
   color: black;
 }

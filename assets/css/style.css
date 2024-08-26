@@ -1,10 +1,10 @@
-@import url('colors.css');
-/* :root {
-  cursor: url("../img/custom-cursor.png"), auto;
-} */
 :root{
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
+  --raven-celeste: #37e2d5;
+  --raven-white: #ffffff;
+  --raven-black: #000000;
+  --raven-grey: #444444;
 }
 /*--------------------------------------------------------------
 # General
