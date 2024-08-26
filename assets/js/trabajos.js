@@ -279,5 +279,13 @@
    */
   new PureCounter();
 
+    /**
+   * Dynamic date for last update clients
+   */
+  const lastUpdateElement = document.getElementById('last-update');
+    const currentDate = new Date();
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = currentDate.toLocaleDateString('es-ES', options);
+    lastUpdateElement.textContent = `Última Actualización: ${formattedDate}`;
   
 })();
