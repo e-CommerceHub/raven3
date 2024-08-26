@@ -345,7 +345,7 @@ h6 {
 /**
 * Mobile Navigation 
 */
-#service{
+#serviceD, #serviceM{
   color: white;
 }
 .mobile-nav-toggle {
