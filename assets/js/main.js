@@ -1,98 +1,9 @@
 (function () {
   "use strict";
-
-  // const cursor = document.querySelector('.cursor');
-  // const links = document.querySelectorAll('nav ul li a');
-  // const links2 = document.querySelectorAll('span');
-  // const links3 = document.querySelectorAll('a');
-  // const links4 = document.querySelectorAll('button');
-  // const links5 = document.querySelectorAll('ul li');
-  // const links6 = document.querySelectorAll('h4');
-  // const links7 = document.querySelectorAll('i');
-
-  // document.addEventListener('mousemove', (e) => {
-  //   let leftPosition = e.clientX + 4;
-  //   let topPosition = e.clientY + 4;
-  //   cursor.style.left = leftPosition + 'px';
-  //   cursor.style.top = topPosition + 'px';
-  // });
-
-  // links.forEach((link) => {
-  //   link.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('large');
-  //   });
-  // });
-  // links.forEach((link) => {
-  //   link.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('large');
-  //   });
-  // });
-  // links2.forEach((link) => {
-  //   link.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('large');
-  //   });
-  // });
-  // links2.forEach((link) => {
-  //   link.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('large');
-  //   });
-  // });
-  // links3.forEach((link) => {
-  //   link.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('large');
-  //   });
-  // });
-  // links3.forEach((link) => {
-  //   link.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('large');
-  //   });
-  // });
-  // links4.forEach((link) => {
-  //   link.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('large');
-  //   });
-  // });
-  // links4.forEach((link) => {
-  //   link.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('large');
-  //   });
-  // });
-  // links5.forEach((link) => {
-  //   link.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('large');
-  //   });
-  // });
-  // links5.forEach((link) => {
-  //   link.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('large');
-  //   });
-  // });
-  // links6.forEach((link) => {
-  //   link.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('large');
-  //   });
-  // });
-  // links6.forEach((link) => {
-  //   link.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('large');
-  //   });
-  // });
-  // links7.forEach((link) => {
-  //   link.addEventListener('mouseenter', () => {
-  //     cursor.classList.add('large');
-  //   });
-  // });
-  // links7.forEach((link) => {
-  //   link.addEventListener('mouseleave', () => {
-  //     cursor.classList.remove('large');
-  //   });
-  // });
-
   var currentYear = new Date().getFullYear();
   document.getElementById("copyright").innerHTML =
     currentYear +
     " © Copyright <strong><span>Agencia raven3</span></strong>. Todos los derechos reservados. Argentina, Buenos Aires.";
-
   /**
    * Easy selector helper function
    */
@@ -104,7 +15,6 @@
       return document.querySelector(el);
     }
   };
-
   /**
    * Easy event listener function
    */
@@ -118,14 +28,12 @@
       }
     }
   };
-
   /**
    * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener("scroll", listener);
   };
-
   /**
    * Navbar links active state on scroll
    */
@@ -148,21 +56,6 @@
   };
   window.addEventListener("load", navbarlinksActive);
   onscroll(document, navbarlinksActive);
-
-  //
-
-  // function to remove scroll Y when clicking the burguer
-  // on('click', '.bi-list', function (e) {
-  //   let burger = select('#burger');
-  //   if(burger.classList.contains('bi-list')){
-  //     document.body.style.overflowY = 'hidden';
-  //   }else{
-  //     document.body.style.overflowY = 'visible';
-  //   }
-  // });
-  /**
-   * Scrolls to an element with header offset
-   */
   const scrollto = (el) => {
     let header = select("#header");
     let offset = header.offsetHeight;
@@ -173,7 +66,6 @@
       behavior: "smooth",
     });
   };
-
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
@@ -189,7 +81,6 @@
     window.addEventListener("load", headerScrolled);
     onscroll(document, headerScrolled);
   }
-
   /**
    * Back to top button
    */
@@ -205,7 +96,6 @@
     window.addEventListener("load", toggleBacktotop);
     onscroll(document, toggleBacktotop);
   }
-
   /**
    * Mobile nav toggle
    */
@@ -220,7 +110,6 @@
       document.body.style.overflowY = "hidden";
     }
   });
-
   /**
    * Mobile nav dropdowns activate
    */
@@ -235,7 +124,6 @@
     },
     true
   );
-
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
@@ -258,7 +146,6 @@
     },
     true
   );
-
   /**
    * Scroll with ofset on page load with hash links in the url
    */
@@ -269,7 +156,6 @@
       }
     }
   });
-
   /**
    * Preloader
    */
@@ -279,11 +165,10 @@
       preloader.remove();
     });
   }
-
-    /**
-   * Initiate Pure Counter 
+  /**
+   * Initiate Pure Counter
    */
-    new PureCounter();
+  new PureCounter();
   /**
    * Animation on scroll
    */
@@ -295,30 +180,7 @@
       mirror: false,
     });
   });
-
-  /**
-   * Mute Button & AUDIO PLAYER
-   */
-  // const audioPlayer = document.getElementById("audio-player");
-  // const muteButton = document.getElementById("mute-button");
-
-  // Function to toggle mute/unmute
-  // function toggleMute() {
-  //   if (audioPlayer.muted) {
-  //     audioPlayer.muted = false;
-  //     muteButton.textContent = "🔊"; // Speaker icon
-  //   } else {
-  //     audioPlayer.muted = true;
-  //     muteButton.textContent = "🔇"; // Muted speaker icon
-  //   }
-  // }
-
-  // Event listener for mute button click
-  // muteButton.addEventListener("click", toggleMute);
-
-
   var form = document.getElementById("my-form");
-
   async function handleSubmit(event) {
     event.preventDefault();
     var status = document.getElementById("my-form-status");
@@ -348,11 +210,9 @@
         displayError(form, error);
       });
   }
-
   if (form) {
     form.addEventListener("submit", handleSubmit);
   }
-
   function displayError(thisForm, error) {
     thisForm.querySelector(".loading").classList.remove("d-block");
     thisForm.querySelector(".error-message").innerHTML = error;
