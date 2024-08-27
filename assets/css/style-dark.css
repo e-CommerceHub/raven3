@@ -116,17 +116,17 @@ h6 {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
-.servicios .icon-box h1 {
+.servicios .icon-box h2 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
-.servicios .icon-box h1 a {
+.servicios .icon-box h2 a {
   color: var(--raven-white);
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
-.servicios .icon-box h1 a:hover {
+.servicios .icon-box h2 a:hover {
   color: var(--raven-celeste);
 }
 .servicios .icon-box p {
@@ -215,6 +215,10 @@ h6 {
   background: rgba(0, 0, 0, 0.8);
   padding: 10px 25px 10px 25px;
   border-radius: 15px;
+}
+
+.main-heading {
+  color: black !important;
 }
 /* scrollbar custom */
 /* ::-webkit-scrollbar {

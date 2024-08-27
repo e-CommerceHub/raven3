@@ -489,7 +489,7 @@ h6 {
   position: absolute;
 }
 
-#hero h1 {
+#hero h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 48px;
@@ -834,7 +834,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h1 {
+.contact .info h2 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
