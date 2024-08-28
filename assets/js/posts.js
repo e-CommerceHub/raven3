@@ -13,7 +13,7 @@ const posts = [
     },
     {
       title: "¿Cómo hacer publicidad en redes sociales? 10 claves para maximizar tus resultados",
-      image_url: "../assets/img/blog/3.jpg",
+      image_url: "../assets/img/blog/como-hacer-publicidad-en-redes-sociales.jpg",
       href:"como-hacer-publicidad-en-redes-sociales",
       alt:"como hacer publicidad en redes sociales 10 claves para maximizar tus resultados"
     }
