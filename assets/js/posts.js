@@ -2,19 +2,19 @@ const posts = [
     {
       title: "¿Cómo ganar nuevos clientes a través del SEO?",
       image_url: "../assets/img/blog/como-ganar-nuevos-clientes-a-traves-del-seo.jpg",
-      href:"como-ganar-nuevos-clientes-a-traves-del-seo.html",
+      href:"como-ganar-nuevos-clientes-a-traves-del-seo",
       alt:"como ganar nuevos clientes a traves del seo"
     },
     {
       title: "Qué son las palabras clave y cómo usarlas",
       image_url: "../assets/img/blog/que-son-las-palabras-clave-y-como-usarlas.jpg",
-      href:"que-son-las-palabras-clave-y-como-usarlas.html",
+      href:"que-son-las-palabras-clave-y-como-usarlas",
       alt:"que son las palabras clave y como usarlas"
     },
     {
       title: "¿Cómo hacer publicidad en redes sociales? 10 claves para maximizar tus resultados",
       image_url: "../assets/img/blog/3.jpg",
-      href:"blog-details.html",
+      href:"como-hacer-publicidad-en-redes-sociales",
       alt:"como hacer publicidad en redes sociales 10 claves para maximizar tus resultados"
     }
   ];
@@ -23,19 +23,19 @@ const posts = [
     {
       title: "Claves del diseño web profesional",
       image_url: "../assets/img/blog/claves-del-diseno-web-profesional.jpg",
-      href:"claves-del-diseno-web-profesional.html",
+      href:"claves-del-diseno-web-profesional",
       alt:"claves del disenio web profesional"
     },
     {
       title: "Como Promocionar tu empresa en las fiestas",
       image_url: "../assets/img/blog/como-promocionar-tu-empresa-en-las-fiestas.jpeg",
-      href:"como-promocionar-tu-empresa-en-las-fiestas.html",
+      href:"como-promocionar-tu-empresa-en-las-fiestas",
       alt:"como promocionar tu empresa en la fiestas"
     },
     {
       title: "¿E-Commerce: ¿Cómo crear una tienda online?",
       image_url: "../assets/img/blog/e-commerce-como-crear-una-tienda-online.jpeg",
-      href:"como-crear-una-tienda-online.html",
+      href:"como-crear-una-tienda-online",
       alt:"como crear una tienda online"
     }
   ];
