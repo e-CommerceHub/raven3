@@ -608,6 +608,39 @@ section {
   padding: 80px;
   overflow: hidden;
 }
+/* Media query for screens up to 320px */
+@media screen and (max-width: 320px) {
+  section {
+      padding: 40px;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+}
+
+/* Media query for screens between 321px and 425px */
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  section {
+      padding: 60px;
+      padding-left: 0px;
+      padding-right: 0px; 
+  }
+}
+
+/* Media query for screens between 426px and 768px */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  section {
+      padding: 70px;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+}
+
+/* Media query for screens between 769px and 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  section {
+      padding: 80px; 
+  }
+}
 
 .section-title {
   padding-bottom: 40px;
