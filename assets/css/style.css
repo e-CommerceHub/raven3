@@ -11,6 +11,7 @@
 --------------------------------------------------------------*/
 html {
   background-color: var(--raven-black);
+  scroll-behavior: smooth;
 }
 .cursor {
   position: fixed;
