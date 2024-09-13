@@ -135,7 +135,7 @@ p {
 
 .cta2 {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/poster.png") fixed center center;
+    url("../img/tienda-online.jpg") fixed center center;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -149,7 +149,7 @@ p {
 
 @supports (-webkit-touch-callout: none) {
   .cta2 {
-    background: url("../img/poster.png") center top no-repeat scroll;
+    background: url("../img/tienda-online.jpg") center top no-repeat scroll;
     background-size: auto 350px;
   }
 }
