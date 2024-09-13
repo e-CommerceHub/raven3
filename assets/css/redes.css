@@ -122,7 +122,6 @@ p {
 .text-stroke-white {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  font-size: 120px;
   font-weight: 700;
   line-height: 1.2;
   color: rgba(255, 255, 255, 0.500) !important;
@@ -157,24 +156,29 @@ p {
 /* Media query for screens up to 320px */
 @media screen and (max-width: 320px) {
   .text-stroke-white {
-    font-size: 60px;
+    font-size: 4vh;
   }
 }
 /* Media query for screens between 321px and 425px */
 @media screen and (min-width: 321px) and (max-width: 425px) {
   .text-stroke-white {
-    font-size: 60px;
+    font-size: 6vh;
   }
 }
 /* Media query for screens between 426px and 768px */
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .text-stroke-white {
-    font-size: 80px;
+    font-size: 8vh;
   }
 }
 /* Media query for screens between 769px and 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .text-stroke-white {
-    font-size: 120px;
+    font-size: 10vh;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .text-stroke-white {
+    font-size: 14vh;
   }
 }
