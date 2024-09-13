@@ -105,12 +105,12 @@ p {
 }
 @media only screen and (max-width: 412px) {
   .cta-landing-1 video {
-    margin-top: 69px;
+    margin-top: 68px;
   }
 }
 @media only screen and (max-width: 992px) {
   .cta-landing-1 video {
-    margin-top: 69px;
+    margin-top: 68px;
   }
 }
 
@@ -126,11 +126,6 @@ p {
   font-weight: 700;
   line-height: 1.2;
   color: rgba(255, 255, 255, 0.5) !important;
-}
-@media (max-width: 412px) {
-  .text-stroke-white {
-    font-size: 60px;
-  }
 }
 
 .cta2 {
@@ -151,5 +146,30 @@ p {
   .cta2 {
     background: url("../img/dispositivos.jpg") center top no-repeat scroll;
     background-size: auto 350px;
+  }
+}
+
+/* Media query for screens up to 320px */
+@media screen and (max-width: 320px) {
+  .text-stroke-white {
+    font-size: 60px;
+  }
+}
+/* Media query for screens between 321px and 425px */
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  .text-stroke-white {
+    font-size: 60px;
+  }
+}
+/* Media query for screens between 426px and 768px */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .text-stroke-white {
+    font-size: 80px;
+  }
+}
+/* Media query for screens between 769px and 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .text-stroke-white {
+    font-size: 120px;
   }
 }
