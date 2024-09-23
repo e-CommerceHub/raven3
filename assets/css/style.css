@@ -1,4 +1,4 @@
-:root{
+:root {
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
   --raven-celeste: #37e2d5;
@@ -55,13 +55,13 @@ h6 {
   font-family: "Varela Round", sans-serif;
 }
 
-.white{
+.white {
   color: var(--raven-white) !important;
 }
 .black {
   color: var(--raven-black) !important;
 }
-.celes{
+.celes {
   color: var(--raven-celeste) !important;
 }
 /*--------------------------------------------------------------
@@ -274,7 +274,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a,
-.navbar li:hover a > span  {
+.navbar li:hover a > span {
   color: #37e2d5;
 }
 @media (min-width: 1280px) {
@@ -311,11 +311,11 @@ h6 {
 
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
-  .navbar .dropdown ul li:hover>a {
+  .navbar .dropdown ul li:hover > a {
     color: var(--color-primary);
   }
 
-  .navbar .dropdown:hover>ul {
+  .navbar .dropdown:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -327,7 +327,7 @@ h6 {
     visibility: hidden;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     opacity: 1;
     top: 0;
     left: 100%;
@@ -339,14 +339,15 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
 /**
 * Mobile Navigation 
 */
-#serviceD, #serviceM{
+#serviceD,
+#serviceM {
   color: white;
 }
 .mobile-nav-toggle {
@@ -438,8 +439,8 @@ h6 {
     color: black !important;
   }
 
-  .navbar .dropdown>.dropdown-active,
-  .navbar .dropdown .dropdown>.dropdown-active {
+  .navbar .dropdown > .dropdown-active,
+  .navbar .dropdown .dropdown > .dropdown-active {
     display: block;
   }
 }
@@ -589,8 +590,8 @@ h6 {
     font-size: 28px;
   }
 }
-@media (min-width: 1000px){
-  .carousel-container{
+@media (min-width: 1000px) {
+  .carousel-container {
     margin-left: 150px;
     margin-right: 150px;
   }
@@ -612,34 +613,34 @@ section {
 /* Media query for screens up to 320px */
 @media screen and (max-width: 320px) {
   section {
-      padding: 40px;
-      padding-left: 0px;
-      padding-right: 0px;
+    padding: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
 /* Media query for screens between 321px and 425px */
 @media screen and (min-width: 321px) and (max-width: 425px) {
   section {
-      padding: 60px;
-      padding-left: 0px;
-      padding-right: 0px; 
+    padding: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
 /* Media query for screens between 426px and 768px */
 @media screen and (min-width: 426px) and (max-width: 768px) {
   section {
-      padding: 70px;
-      padding-left: 0px;
-      padding-right: 0px;
+    padding: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
 /* Media query for screens between 769px and 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   section {
-      padding: 80px; 
+    padding: 80px;
   }
 }
 
@@ -708,11 +709,10 @@ section {
   margin-bottom: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio2
 --------------------------------------------------------------*/
-.portfolio2{
+.portfolio2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -734,33 +734,32 @@ section {
 }
 
 .btn-liquid {
-	display: inline-block;
-	position: relative;
-	width: 240px;
-	height: 60px;
-	border-radius: 27px;
-	color: #fff;
-	font: 700 14px/60px  "Varela Round", sans-serif;
-	letter-spacing: 0.05em;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  width: 240px;
+  height: 60px;
+  border-radius: 27px;
+  color: #fff;
+  font: 700 14px/60px "Varela Round", sans-serif;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btn-liquid .inner {
-	position: relative;
-	z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .btn-liquid canvas {
-	position: absolute;
-	top: -50px;
-	right: -50px;
-	bottom: -50px;
-	left: -50px;
-	z-index: 1;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  bottom: -50px;
+  left: -50px;
+  z-index: 1;
 }
-
 
 /*--------------------------------------------------------------
 # Cta
@@ -773,7 +772,8 @@ section {
 } */
 
 .cta1 {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("../img/raven5.webp") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/raven5.webp") fixed center center;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -785,7 +785,8 @@ section {
   margin-bottom: 50px;
 }
 .cta2 {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("../img/cta2.webp") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/cta2.webp") fixed center center;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -797,7 +798,8 @@ section {
   margin-bottom: 50px;
 }
 .cta3 {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("../img/raven.avif") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/raven.avif") fixed center center;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -810,7 +812,8 @@ section {
 }
 
 .cta4 {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),url("../img/raven4.webp") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/raven4.webp") fixed center center;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -824,23 +827,22 @@ section {
 
 @supports (-webkit-touch-callout: none) {
   .cta1 {
-      background: url('../img/raven5.webp') center top no-repeat scroll;
-      background-size: auto 350px;
-  }
-  .cta2{
-    background: url('../img/cta2.webp') center top no-repeat scroll;
+    background: url("../img/raven5.webp") center top no-repeat scroll;
     background-size: auto 350px;
   }
-  .cta3{
-    background: url('../img/raven.avif') center top no-repeat scroll;
+  .cta2 {
+    background: url("../img/cta2.webp") center top no-repeat scroll;
     background-size: auto 350px;
-  }    
-  .cta4{
-    background: url('../img/raven4.webp') center top no-repeat scroll;
+  }
+  .cta3 {
+    background: url("../img/raven.avif") center top no-repeat scroll;
     background-size: auto 350px;
-  }  
+  }
+  .cta4 {
+    background: url("../img/raven4.webp") center top no-repeat scroll;
+    background-size: auto 350px;
+  }
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -851,7 +853,27 @@ section {
 }
 .map {
   width: 100%;
-  background-color: black;
+  padding: 0px;
+  height: 450px;
+  background-image: url("../img/svg/map.svg");
+  color: white;
+  background-color: #24262b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.a-footer-provincias {
+  color: #bbb;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.texto-resaltado {
+  color: white;
 }
 
 .contact .info i {
@@ -1163,7 +1185,6 @@ section {
   cursor: pointer;
 }
 
-
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
@@ -1183,10 +1204,10 @@ section {
   #footer {
     text-align: center;
   }
-  #footer .footer-top .footer-links ul{
+  #footer .footer-top .footer-links ul {
     display: inline-block;
   }
-  .justified-items{
+  .justified-items {
     display: grid !important;
     justify-items: center;
   }
@@ -1215,7 +1236,7 @@ section {
   animation-iteration-count: 100;
 }
 
-.gmap{
+.gmap {
   filter: grayscale(100%) invert(92%) contrast(83%);
 }
 
@@ -1229,8 +1250,8 @@ section {
   z-index: 2147483647;
   transition: width 0.3s ease; /* Agrega una transición suave al ancho */
 }
-.call{
-  border:  1px solid black;
+.call {
+  border: 1px solid black;
   border-radius: 25px;
   padding: 25px 25px 25px 25px;
 }

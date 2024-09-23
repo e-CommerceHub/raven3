@@ -60,9 +60,7 @@ font-weight: bold;
   font-family: "Lexend Deca", sans-serif;
   color: var(--raven-black);
 }
-.map {
-  background-color: var(--raven-white);
-} 
+
 .contact .info {
   width: 100%;
   background-color: var(--raven-white);
