@@ -855,8 +855,8 @@ section {
   width: 100%;
   padding: 0px;
   height: 450px;
-  background-image: url("../img/svg/map.svg");
-  color: white;
+  background-image: url("../img/map_grey.png");
+  /* background-image: url("../img/svg/map.svg"); */
   background-color: #24262b;
   display: flex;
   align-items: center;
