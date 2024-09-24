@@ -7,8 +7,8 @@
 body {
   color:var(--raven-black);
   background-color: var(--raven-white);
-  transition: color 0.2s ease-in-out;
-  background-color: 0.2s ease-in-out;
+  /* transition: color 0.2s ease-in-out;
+  background-color: 0.2s ease-in-out; */
 }
 h1 {
   color: var(--raven-black);
