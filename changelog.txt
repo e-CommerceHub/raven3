@@ -1,0 +1,2 @@
+# Changelog for [Website Name]
+All notable changes to this website will be documented in this file.
