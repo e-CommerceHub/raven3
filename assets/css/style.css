@@ -630,6 +630,9 @@ section {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .consultoria {
+    max-width: 290px;
+  }
 }
 
 /* Media query for screens between 321px and 425px */
@@ -639,6 +642,9 @@ section {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .consultoria {
+    max-width: 395px;
+  }
 }
 
 /* Media query for screens between 426px and 768px */
@@ -647,6 +653,9 @@ section {
     padding: 70px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .consultoria {
+    max-width: 500px;
   }
 }
 
@@ -1298,7 +1307,7 @@ section {
   place-content: center space-between;
   align-items: center;
   align-self: stretch;
-  background-color:var(--raven-grey-light);
+  background-color: var(--raven-grey-light);
   border-radius: 20px;
   display: flex;
   flex: 1 0 0px;
@@ -1308,7 +1317,7 @@ section {
   padding: 30px;
   position: relative;
 }
-.consultoria{
+.consultoria {
   display: flex;
   flex-direction: column;
   justify-content: center;
