@@ -609,17 +609,20 @@
       <!-- End Team Section -->
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact" style="margin-top: 50px">
-        <div class="container" data-aos="fade-up">
+        <div class="container consultoria" data-aos="fade-up">
           <div
             class="section-title mb-5"
             data-aos="fade-right"
             data-aos-delay="100"
           >
-            <h2 class="varela">¿En que podemos ayudarte?</h2>
-            <!-- <p class="varela"></p> -->
+            <h2 class="varela">Consultoría gratuita</h2>
+            <p class="varela">
+              Completa el form para agendar una reunión con nuestro equipo,
+              ¡queremos conocerte!
+            </p>
           </div>
 
-          <div class="row mt-5">
+          <!-- <div class="row mt-5">
             <div class="col-lg-4">
               <div class="info">
                 <div class="address" data-aos="fade-right" data-aos-delay="200">
@@ -634,66 +637,69 @@
                   <p>✉️ hola@raven3.com.ar</p>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="col-lg-8 mt-5 mt-lg-0">
-              <p>
-                Déjanos un mensaje y nos pondremos en contacto contigo a la
-                brevedad.
-              </p>
-              <form
-                id="my-form"
-                action="https://formspree.io/f/mvoykeyq"
-                method="POST"
-                class="php-email-form"
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <p>Datos de contacto</p>
+            <form
+              id="my-form"
+              action="https://formspree.io/f/mvoykeyq"
+              method="POST"
+              class="php-email-form"
+            >
+              <div
+                class="form-group mt-3"
+                data-aos="fade-left"
+                data-aos-delay="100"
               >
-                <div
-                  class="form-group mt-3"
-                  data-aos="fade-left"
-                  data-aos-delay="100"
-                >
-                  <label for="email">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    id="email"
-                    required
-                  />
+                <div style="display: flex">
+                  <label for="email">Email:</label>
                 </div>
-                <div
-                  class="form-group mt-3"
-                  data-aos="fade-left"
-                  data-aos-delay="200"
-                >
-                  <label for="message">Mensaje </label>
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    id="message"
-                    required
-                  ></textarea>
+
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  required
+                />
+              </div>
+              <div
+                class="form-group mt-3"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <div style="display: flex">
+                  <label for="message"
+                    >Mensaje adicional. Cuéntanos más sobre tí y tu negocio.
+                  </label>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Tú mensaje ha sido enviado. Gracias!
-                  </div>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  id="message"
+                  required
+                ></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Tú mensaje ha sido enviado. Gracias!
                 </div>
-                <div
-                  class="text-center"
-                  data-aos="fade-left"
-                  data-aos-delay="300"
-                >
-                  <button type="submit" id="my-form-button">
-                    Enviar Mensaje
-                  </button>
-                  <p id="my-form-status"></p>
-                </div>
-              </form>
-            </div>
+              </div>
+              <div
+                class="text-center"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <button type="submit" id="my-form-button">
+                  Enviar Mensaje
+                </button>
+                <p id="my-form-status"></p>
+              </div>
+            </form>
           </div>
         </div>
       </section>
@@ -899,22 +905,38 @@
       </div>
 
       <section>
-        <div class="container">
-          <div class="text-center mb-5" id="asesoramiento">
+        <div class="container personalizado">
+          <div id="asesoramiento">
             <div class="row mb-5 mt-5">
-              <div class="col-lg-12 col-md-12 text-center">
-                <a
-                  href="https://calendly.com/raven3-asesoramiento"
-                  data-aos="fade-up"
-                  title="Solicitar llamada con un especialista"
-                >
-                  <h3 data-aos="fade-right" class="call">
-                    Obtené una consulta Gratis con uno de nuestros expertos!
-                  </h3>
-                </a>
+              <div class="col-lg-12 col-md-12">
+                <h3>Personalizado</h3>
+                <p>
+                  No ves lo que buscabas? No te preocupes. Hablemos de tu
+                  negocio y trabajemos en un plan personalizado.
+                </p>
               </div>
             </div>
           </div>
+          <a
+            href="https://calendly.com/raven3-asesoramiento"
+            title="Solicitar llamada con un especialista"
+            class="conversemos"
+          >
+            <h4
+              data-aos="fade-right"
+              class="call"
+              style="
+                background: radial-gradient(
+                  circle at center,
+                  var(--raven-celeste) 0%,
+                  var(--raven-pink) 100%
+                );
+                border-radius: 25px;
+              "
+            >
+              Conversemos
+            </h4>
+          </a>
         </div>
       </section>
     </main>

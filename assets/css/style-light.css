@@ -37,7 +37,7 @@ h6 {
 .credits a:hover {
   font-weight: bold;
 }
-.contact .php-email-form button[type="submit"] {
+/* .contact .php-email-form button[type="submit"] {
   background: var(--raven-white);
   border: 1px solid #395b64;
   padding: 10px 24px;
@@ -51,24 +51,24 @@ h6 {
   color: var(--raven-black);
   border: 1px solid #bbe4e4;
   transition: all ease-in-out 0.3s;
-}
-.section-title p {
+} */
+/* .section-title p {
   margin: 0;
   margin: 0;
   font-size: 36px;
   font-weight: 700;
   font-family: "Lexend Deca", sans-serif;
   color: var(--raven-black);
-}
+} */
 
 .contact .info {
   width: 100%;
   background-color: var(--raven-white);
 }
-.contact .php-email-form {
+/* .contact .php-email-form {
   width: 100%;
   background-color: var(--raven-white);
-}
+} */
 #footer {
   background: var(--raven-white);
   padding: 0 0 30px 0;
@@ -89,23 +89,23 @@ h6 {
 .contact .info h4 {
   color: var(--raven-black);
 }
-.contact .php-email-form textarea {
+/* .contact .php-email-form textarea {
   background-color: var(--raven-white);
   color: var(--raven-black);
   border: 1px solid #395b64;
-}
-.contact .php-email-form input {
+} */
+/* .contact .php-email-form input {
   background-color: var(--raven-white);
   color: var(--raven-black);
   border: 1px solid #395b64;
-}
+} */
 #footer .footer-top h1 {
   color: var(--raven-black);
 }
 .gmap {
   filter: grayscale(0%) invert(0%) contrast(100%);
 }
-.portfolio2 {
+/* .portfolio2 {
   height: 50vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -125,13 +125,13 @@ h6 {
   -ms-flex-align: center;
   align-items: center;
   background-color: var(--raven-white);
-}
+} */
 @media only screen and (max-width: 412px) {
   .portfolio2 {
     height: 50vh;
   }
 }
-.btn-liquid {
+/* .btn-liquid {
   display: inline-block;
   position: relative;
   width: 240px;
@@ -143,13 +143,13 @@ h6 {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-}
-.btn-liquid .inner {
+} */
+/* .btn-liquid .inner {
   position: relative;
   z-index: 2;
   color: var(--raven-white);
-}
-.btn-liquid canvas {
+} */
+/* .btn-liquid canvas {
   position: absolute;
   top: -50px;
   right: -50px;
@@ -159,7 +159,7 @@ h6 {
 }
 .btn-liquid span {
   color: var(--raven-white);
-}
+} */
 .portfolio-link {
   color: var(--raven-celeste);
 }

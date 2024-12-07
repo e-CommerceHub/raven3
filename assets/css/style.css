@@ -5,6 +5,8 @@
   --raven-white: #ffffff;
   --raven-black: #000000;
   --raven-grey: #444444;
+  --raven-pink: #e406d6;
+  --raven-grey-light: #d3d3d3;
 }
 /*--------------------------------------------------------------
 # General
@@ -580,7 +582,7 @@ h6 {
   background: transparent;
 }
 
-#hero .btn-get-started2{
+#hero .btn-get-started2 {
   font-family: "Varela Round", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -593,7 +595,7 @@ h6 {
   line-height: 1em;
   color: var(--raven-black);
   animation-delay: 0.8s;
-  background: var(--raven-celeste);;
+  background: var(--raven-celeste);
 }
 
 @media (max-width: 768px) {
@@ -660,33 +662,33 @@ section {
 }
 
 .section-title h2 {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 700;
   padding: 0;
-  line-height: 20px;
-  margin: 0 0 5px 0;
+  line-height: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #595959;
-  font-family: "Poppins", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
   background: #37e2d5;
   margin: 4px 10px;
-}
+} */
 
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  font-family: "Lexend Deca", sans-serif;
-  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Varela Round", sans-serif;
+  color: black;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -724,6 +726,7 @@ section {
 # Portfolio2
 --------------------------------------------------------------*/
 .portfolio2 {
+  height: 50vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -741,7 +744,7 @@ section {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #000;
+  background-color: var(--raven-white);
 }
 
 .btn-liquid {
@@ -750,12 +753,26 @@ section {
   width: 240px;
   height: 60px;
   border-radius: 27px;
-  color: #fff;
+  color: black;
   font: 700 14px/60px "Varela Round", sans-serif;
   letter-spacing: 0.05em;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  /* Gradient Background */
+  background: radial-gradient(
+    circle at center,
+    var(--raven-celeste) 0%,
+    var(--raven-pink) 100%
+  );
+  overflow: hidden;
+  /* Optional for a slight 3D effect */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+.btn-liquid:hover {
+  /* Slight zoom effect on hover */
+  transform: scale(1.05);
 }
 
 .btn-liquid .inner {
@@ -923,7 +940,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background-color: black;
+  background: rgb(211, 211, 211);
 }
 
 .contact .php-email-form .form-group {
@@ -987,31 +1004,33 @@ section {
 
 .contact .php-email-form input {
   height: 44px;
-  background-color: #2c3333;
-  color: white;
+  background-color: var(--raven-white);
+  color: var(--raven-black);
+  border: 1px solid #395b64;
 }
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
-  background-color: #2c3333;
-  color: white;
   resize: none;
+  background-color: var(--raven-white);
+  color: var(--raven-black);
+  border: 1px solid #395b64;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #37e2d5;
-  border: 0;
+  background: var(--raven-white);
+  border: 1px solid #395b64;
   padding: 10px 24px;
   color: #151515;
   transition: 0.4s;
   border-radius: 4px;
   cursor: pointer;
 }
-
 .contact .php-email-form button[type="submit"]:hover {
-  background-color: transparent;
-  color: white;
-  border: 1px solid #37e2d5;
+  background-color: #bbe4e4;
+  color: var(--raven-black);
+  border: 1px solid #bbe4e4;
+  transition: all ease-in-out 0.3s;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1265,4 +1284,37 @@ section {
   border: 1px solid black;
   border-radius: 25px;
   padding: 25px 25px 25px 25px;
+}
+.call:hover {
+  transform: scale(1.05);
+}
+.conversemos {
+  margin-left: 15px;
+}
+.conversemos:hover {
+  transform: scale(1.05) !important;
+}
+.personalizado {
+  place-content: center space-between;
+  align-items: center;
+  align-self: stretch;
+  background-color:var(--raven-grey-light);
+  border-radius: 20px;
+  display: flex;
+  flex: 1 0 0px;
+  flex-flow: row;
+  height: auto;
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+}
+.consultoria{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background: var(--raven-grey-light);
+  border-radius: 25px;
 }
