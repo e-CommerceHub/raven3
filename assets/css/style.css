@@ -1290,7 +1290,6 @@ section {
   transition: width 0.3s ease; /* Agrega una transición suave al ancho */
 }
 .call {
-  border: 1px solid black;
   border-radius: 25px;
   padding: 25px 25px 25px 25px;
 }
